@@ -11,13 +11,13 @@
        },
        {
            question: "Perawat Rumah Sakit akan melakukan pemeriksaan jantung pasien. Untuk keperluan hal tersebut diperlukan alat ECG. Pada manual book alat ecg terdapat spesifikasi alat yang tertulis 3 channel. Apa yang dimaksud dengan istilah 3 channel pada pesawat tersebut?",
-           options: ["A. ECG tersebutmempunyai 3 Filter", "B. ECG tersebutmempunyai 3 kabelmasukan", "C. ECG tersebutmampumerekam 3 lead sekaligus", "D. ECG tersebutmampumemeriksa 3 pasiensekaligus", "E. ECG tersebutmampumenyimpan 3 data perekam"],
+           options: ["A. ECG tersebut mempunyai 3 Filter", "B. ECG tersebut mempunyai 3 kabel masukan", "C. ECG tersebut mampumerekam 3 lead sekaligus", "D. ECG tersebutmampumemeriksa 3 pasiensekaligus", "E. ECG tersebutmampumenyimpan 3 data perekam"],
            answer: "C. ECG tersebut mampu merekam 3 lead sekaligus"
        },
        {
            question: "Pada unit Waterbath, heater/pemanas adalah komponen utama untuk bekerja atau tidaknya alat ini. Untuk mencegah kerusakan pada heater, adahal yang harus diperhatikan dalam penggunaan air yang dipakai. Apa kriteria air yang harus digunaka n pada waterbath tersebut?",
-           options: ["A. Air yang sudahdiprosespenguapan (Aquades)", "B. Air banyakmengandung mineral", "C. Air harusbersihdanjernih", "D. Air yang sudah di rebus", "E. Air suling"],
-           answer: "A. Air yang sudahdiprosespenguapan (Aquades)"
+           options: ["A. Air yang sudah diproses penguapan (Aquades)", "B. Air banyak mengandung mineral", "C. Air harus bersih dan jernih", "D. Air yang sudah di rebus", "E. Air suling"],
+           answer: "A. Air yang sudah diproses penguapan (Aquades)"
        },
        {
            question: "Seorang pasien dianjurkan melakukan pemotretan dengan menggunakan pesawat dental x - ray untuk pemeriksaan seluruh gigi. Yang saudara ketahui, pesawat apa yang dimaksud?",
@@ -25,27 +25,27 @@
            answer: "C. Dental Panoramix"
        },
        {
-           question: "Unit radiologi bergerak dapat beroperasional tetapi memuncul error pada unit setelah 15 – 20 kali exposure. Ketika error code munculmaka x - ray ti dak terjadi. Error code menjelaskan tentanga danya over current pada filament circuit. Apa yang harus dilakukan elektromedis dalam masalah tersebut?",
-           options: ["A. Perbaikanrangkaian mA kemudian kalibrasi", "B. Perbaikanrangkaian KV kemudiankalibrasi", "C. Perbaikanrangkaianspace ch arge kemudiankalibrasi", "D. Perbaikanrangkaian over protection kemudian kalibrasi", "E. Perbaikanrangkaian control charging kemudiankalibrasi"],
-           answer: "D. Perbaikanrangkaian over protection kemudian kalibrasi"
+           question: "Unit radiologi bergerak dapat beroperasional tetapi memuncul error pada unit setelah 15 – 20 kali exposure. Ketika error code muncul maka x - ray tidak terjadi. Error code menjelaskan tentanga danya over current pada filament circuit. Apa yang harus dilakukan elektromedis dalam masalah tersebut?",
+           options: ["A. Perbaikan rangkaian mA kemudian kalibrasi", "B. Perbaikan rangkaian KV kemudian kalibrasi", "C. Perbaikan rangkaian space charge kemudian kalibrasi", "D. Perbaikan rangkaian over protection kemudian kalibrasi", "E. Perbaikan rangkaian control charging kemudian kalibrasi"],
+           answer: "D. Perbaikan rangkaian over protection kemudian kalibrasi"
        },
        {
            question: "Sebuah alat infuse pump tidak bekerja dengan baik dengan keluhan terjadi gelembung udara pada tubing/selang. Perawat belum mengerti penggunaan alat karena alat baru beberapa hari dibeli. Sudah dilakukan penyetelan ulang oleh elektromedis untuk mengeluarkan bubble namun terjadi lagi adanya bubble pada cubing inf use pump. Apa prosedur yang harus dijelaskan oleh elektromedis ke pada perawat?",
-           options: ["A. Prosedurpengoperasian", "B. Prosedurpenyimpanan", "C. Prosedurpemeliharaan", "D. Prosedurpenempatan", "E. Prosedurkalibrasi"],
+           options: ["A. Prosedur pengoperasian", "B. Prosedu rpenyimpanan", "C. Prosedur pemeliharaan", "D. Prosedur penempatan", "E. Prosedur kalibrasi"],
            answer: "C. Prosedur pengoperasian"
        },
        {
            question: "Radiographer menyampaikan laporan keluhan kinerja unit radiologi bergerak di instalasinya. Setelah 10 - 15 kali exposure, unit tidak mampu menghasilkan x - ray. Hasil kalibrasi pada semua nilai mA nilainya out of tolerance dan mencapai +20% dari setting. Apa yang harus dilakukan elektromedis dalam masalah ter sebut?",
-           options: ["A. Perbaikanrangkaian KV kemudiankalibrasi", "B. Perbaikanrangkaian exposure kemudiankalibrasi", "C. Perbaikanrangkaian over current kemudiankalibrasi", "D. Perbaikan rangkaian arus tabung kemudian kalibrasi", "E. Perbaikanrangkaian space charge kemudiankalibrasi"],
+           options: ["A. Perbaikan rangkaian KV kemudian kalibrasi", "B. Perbaikan rangkaian exposure kemudian kalibrasi", "C. Perbaikan rangkaian over current kemudian kalibrasi", "D. Perbaikan rangkaian arus tabung kemudian kalibrasi", "E. Perbaikanrangkaian space charge kemudiankalibrasi"],
            answer: "E. Perbaikan rangkaian arus tabung kemudian kalibrasi"
        },
        {
            question: "Unit infuse pump yang baru saja dibeli tidak bekerja dengan baik dengan keluhan gelembung udara pada tubing. Saat uji fungsi pertama kali berjalan normal. Tenaga elektromedis sudah berkali - kali menangani keluhan tersebut dengan mempraktekan bagaimana mengeluarkan bubble dari tubing kepada perawat. Hanya saja keluhan yang sama terjadi lagi. Apakah prosedur yang harus di susun oleh elektromedis yang dapat membantu pe rawat menangani masalah tersebut?",
-           options: ["A. Prosedurkalibrasi", "B. Prosedurperbaikan", "C. Prosedurpemantauan", "D. Prosedurpemeliharaan", "E. Prosedur pengoperasian"],
+           options: ["A. Prosedur kalibrasi", "B. Prosedur perbaikan", "C. Prosedur pemantauan", "D. Prosedur pemeliharaan", "E. Prosedur pengoperasian"],
            answer: "E. Prosedur pengoperasian"
        },
        {
-           question: "Dilaporkan oleh teknisi pelksana elektromedik pemula, bahwa ada laporan kerusakan alat roentgenhasil film yang di but radiogra fer kadang tidak sesuai dengan ukuran yang dibuat saat preposisi kolimasi penyinaran pada kolimator. Dari 11 - 15 preposisi kolimasi yang dilakukan 1 - 2 salah pengukuran. Apa prosedur yang harus dilakukan oleh teknisi elektromedis?",
+           question: "Dilaporkan oleh teknisi pelaksana elektromedik pemula, bahwa ada laporan kerusakan alat roentgen hasil film yang di buat radiografer kadang tidak sesuai dengan ukuran yang dibuat saat preposisi kolimasi penyinaran pada kolimator. Dari 11 - 15 preposisi kolimasi yang dilakukan 1 - 2 salah pengukuran. Apa prosedur yang harus dilakukan oleh teknisi elektromedis?",
            options: ["A. kalibrasi", "B. perbaikan", "C. penggantian", "D. pemantauan", "E. pemeliharaan"],
            answer: "A. Kalibrasi"
        },
@@ -55,7 +55,7 @@
            answer: "B. 2 tahun"
        },
        {
-           question: "Seorang teraps akan melakukan terapi terhadap pasien berpenyakit asma dengan menggunakan nebulizer ultrasound, tetapi pesawat dinyalakan tidak terjadi aerosol/penguapan padahal obat sudah dimasukkan. Setelah diamati kabel power sudah terpasang, lampu indikator menyala dan timer sudah disetting. Dari permasalahan di atas selaku pra ktisi elektromedis apa yang saudara akan lakukan?",
+           question: "Seorang terapis akan melakukan terapi terhadap pasien berpenyakit asma dengan menggunakan nebulizer ultrasound, tetapi pesawat dinyalakan tidak terjadi aerosol/penguapan padahal obat sudah dimasukkan. Setelah diamati kabel power sudah terpasang, lampu indikator menyala dan timer sudah disetting. Dari permasalahan di atas selaku pra ktisi elektromedis apa yang saudara akan lakukan?",
            options: ["A. Mengecek kipas", "B. Mengecek piezoelektrik", "C. Mengecek Kabel supplay", "D. Mengecek rangkaian timer", "E. Mengecek rangkaian osilator"],
            answer: "B. Mengecek Piezoelektrik"
        },
@@ -65,12 +65,12 @@
            answer: "D. melakukan pemeriksaan bagian pengatur panas"
        },
        {
-           question: "Pada saat seorang operator mengoperasikan alat centrifugeterjadi getaran dan gerakan yang keras pada alat centrifuge tersebut. Apakah yang pertama kali harus dilakukan seo rang operator?",
+           question: "Pada saat seorang operator mengoperasikan alat centrifuge terjadi getaran dan gerakan yang keras pada alat centrifuge tersebut. Apakah yang pertama kali harus dilakukan seorang operator?",
            options: ["A. memeriksa kondisi tabung", "B. memeriksa motor pada centrifuge", "C. memeriksa tegangan jala - jala PLN", "D. mengatur kembali pengaturan kecepatan", "E. memeriksa rnagkaian kecepatan motor"],
            answer: "A. memeriksa kondisi tabung"
        },
        {
-           question: "Seorang perawat mengoperasikan syringe pump de ngan kecepatan 120 mL/jam dan menggunakan spuit 30 cc dan jumlah obat yang disuntikkan adalah 20 mL. Berapa waktu diperlukan untuk obat tersebut habis?",
+           question: "Seorang perawat mengoperasikan syringe pump dengan kecepatan 120 mL/jam dan menggunakan spuit 30 cc dan jumlah obat yang disuntikkan adalah 20 mL. Berapa waktu diperlukan untuk obat tersebut habis?",
            options: ["A. 10 menit", "B. 20 menit", "C. 40 menit", "D. 60 menit", "E. 90 menit"],
            answer: "A. 10 menit"
        },
@@ -81,36 +81,36 @@
        },
        {
            question: "baby incubator yang digunakan terdapat 2 nilai suhu yang dapat diamati oleh user yaitu suhu bayi dan suhu di dalam ruangan inkubator. Namun ketika sebuah alat baby incubator sedang difungsikan tiba - tiba suhu di dalam ruang bayi ini ternyata nilai suhunya tidak dapat ditampilkan pada display. Dari permasalahan di atas analisa awal apa yang mengalami kerusakan?",
-           options: ["A. Air probe sensor", "B. Skin probe sensor", "C. Humidt y probe sensor", "D. Display dan air probe sensor", "E. Display pada skin probe sensor"],
+           options: ["A. Air probe sensor", "B. Skin probe sensor", "C. Humidty probe sensor", "D. Display dan air probe sensor", "E. Display pada skin probe sensor"],
            answer: "D. Display dan air probe sensor"
        },
        {
-           question: "Perawat mera g ukan hasil ukur sebuah sphygmomanometer air raksa.Ketika teknisi elektromedik melakukan pengukuran tekanan air raksa pada alat tersebut didapat selisih nilai antara alat ukur dan sphygmomanometer tersebut. Setelah alat di periksa terdapat tumpahan air raksa di sekitarnyan sphygmomanometer. Apakah yang harus saudara dilakukan pertama kali untuk menangani alat tersebut ?",
+           question: "Perawat meragukan hasil ukur sebuah sphygmomanometer air raksa. Ketika teknisi elektromedik melakukan pengukuran tekanan air raksa pada alat tersebut didapat selisih nilai antara alat ukur dan sphygmomanometer tersebut. Setelah alat di periksa terdapat tumpahan air raksa di sekitarnyan sphygmomanometer. Apakah yang harus saudara dilakukan pertama kali untuk menangani alat tersebut ?",
            options: ["A. Melakukan kalibrasi", "B. Menambahkan air raksa", "C. Melakukan perbaikan", "D. memeriksa Kebocoran air raksa", "E. Memasukkan kembali air tumpahan air raksa"],
            answer: "B. Menambahkan Air Raksa"
        },
        {
-           question: "ECG Rekam dalam potensial listrik otot jantung mengenal dengan sistem bipolar atau segiti ga Einthoven. Untuk megukur LEAD III. Pengukruan diambil di titik.",
+           question: "ECG Rekam dalam potensial listrik otot jantung mengenal dengan sistem bipolar atau segitiga Einthoven. Untuk megukur LEAD III. Pengukruan diambil di titik.",
            options: ["A. RF ( - ) dan LF (+)", "B. LA ( - ) dan LF (+)", "C. LF ( - ) dan LA (+)", "D. RA ( - ) dan LF (+)", "E. RA ( - ) dan LA (+)"],
            answer: "D. RA ( - ) dan LF (+)"
        },
        {
-           question: "Pelayanan kesehatan dibagian fisiotherapi menggunakan peralatan infra red untuk terapi pasien yang nyeri sendi, radang saraf, meningkatakan sirkulasi darah. Berapa jarak antara lampu infrared dengan area therapi pada pasien ?",
+           question: "Pelayanan kesehatan dibagian fisiotherapi menggunakan peralatan infrared untuk terapi pasien yang nyeri sendi, radang saraf, meningkatakan sirkulasi darah. Berapa jarak antara lampu infrared dengan area therapi pada pasien ?",
            options: ["A. 15 - 25 cm", "B. 25 - 50 cm", "C. 50 - 75 cm", "D. 75 - 100 cm", "E. 100 - 125 cm"],
            answer: "B. 25 - 50 cm"
        },
        {
-           question: "Pelayanan kesehatan di bagian fisioterapi menggunakan peralatan infra red untuk terapi pasien yang nyeri sendi, radang saraf, meningkatkan sirkulasi darah Berapa panjang gelombang elektromagnetik lampu tersebut ?",
+           question: "Pelayanan kesehatan di bagian fisioterapi menggunakan peralatan infrared untuk terapi pasien yang nyeri sendi, radang saraf, meningkatkan sirkulasi darah Berapa panjang gelombang elektromagnetik lampu tersebut ?",
            options: ["A. 0,75 nm – 40 nm", "B. 7, 5 nm – 400 nm", "C.75 nm – 4000 nm", "D. 750 nm – 40.000 nm", "E. 7500 nm – 400.000 nm"],
            answer: "D. 750 nm – 40.000 nm"
        },
        {
-           question: "Ultra Sono Grafi yang sering di singkat USG sebagai alat radiologi untuk melihat pencitraan di dalam tubuh dengan menggunakan system piezo elektrik. Bila dalam pencitraan scaning di monitor USG tidak bisa penuh, ada sebagaian yang tidak terdeteksi. Dibagian mana kerusakkan alat terjadi ?",
+           question: "UltraSoundGrafi yang sering di singkat USG sebagai alat radiologi untuk melihat pencitraan di dalam tubuh dengan menggunakan system piezo elektrik. Bila dalam pencitraan scaning di monitor USG tidak bisa penuh, ada sebagaian yang tidak terdeteksi. Dibagian mana kerusakkan alat terjadi ?",
            options: ["A. System TX", "B. System RX", "C. Tranduser", "D. B - Mode", "E. Gain"],
            answer: "C. Tranduser"
        },
        {
-           question: "Foto terapi merupakan salah satu alat untuk men gobati bayi lahir dengan tingkat kadar bilirubin yang tinggi melalui cahaya lampu Berapa panjang gelombang cahaya lampu tersebut ?",
+           question: "Foto terapi merupakan salah satu alat untuk mengobati bayi lahir dengan tingkat kadar bilirubin yang tinggi melalui cahaya lampu Berapa panjang gelombang cahaya lampu tersebut ?",
            options: ["A. 430 – 440 nm", "B. 440 – 450 nm", "C. 450 – 460 nm", "D. 470 – 480 nm", "E. 720 – 780 nm"],
            answer: "C. 450 - 460 nm"
        },
@@ -185,12 +185,12 @@
            answer: "B. Kebocoran valve seal"
        },
        {
-           question: "J antung merupakan organ yang mampu memproduksi impuls listrik secara mandir i. Karena tubuh merupakan konduktor yang cukup baik,maka impuls yang dihasilkan dapat menjalar keseluruh tubuh, sehingga potensial aksinya yang timbul saat jantung berkontraksi dapat diukur melalui galvanometer melalui elektroda yang dipasang pada berbagai posisi, gambaran grafik yang dihasilkan oleh galvanometer ini sangan membantu menegakkan diagnosa kesehatan jantung. Ketika akan memasang elektroda, kulit pasien dibersihkan dan diberi jelly khusus, apa fungsi jelly tersebut?",
+           question: "J antung merupakan organ yang mampu memproduksi impuls listrik secara mandiri. Karena tubuh merupakan konduktor yang cukup baik,maka impuls yang dihasilkan dapat menjalar keseluruh tubuh, sehingga potensial aksinya yang timbul saat jantung berkontraksi dapat diukur melalui galvanometer melalui elektroda yang dipasang pada berbagai posisi, gambaran grafik yang dihasilkan oleh galvanometer ini sangan membantu menegakkan diagnosa kesehatan jantung. Ketika akan memasang elektroda, kulit pasien dibersihkan dan diberi jelly khusus, apa fungsi jelly tersebut?",
            options: ["A. Agar kulit pasien tidak rusak karena elektroda bermuatan listrik", "B. Agar elektroda tidak cepat rusak karena kulit pasien berkeringat", "C. Agar resistansi antar elektroda dan kulit pasien menjadi seminimal mungkin", "D. Agar resistansi antara elektroda dan kulit pasien menjadi semaksimal mungkin", "E. Agar capasistance antara elektroda dan kulit pasien menjadi seminimal mungkin"],
            answer: "C. Agar resistansi antar electrode dan kulit pasien menjadi seminimal mungkin"
        },
        {
-           question: "suatu rumah sakit akan membangun ruangan operasi, dan akan mambeli mesin anastesi untuk mengoperasikanya dibutuhkan intsalasi gas medis Apa jenis compressor untuk menghasilkan fresh air yang akan digunakan untuk alat ini?",
+           question: "suatu rumah sakit akan membangun ruangan operasi, dan akan mambeli mesin anastesi untuk mengoperasikanya dibutuhkan instalasi gas medis Apa jenis compressor untuk menghasilkan fresh air yang akan digunakan untuk alat ini?",
            options: ["A. Oil free compressor", "B. Compressor dua tank", "C. Compressor satu tank", "D. Bubble free compressor", "E. Stepper motor compressor"],
            answer: "E. Stepper motor compressor"
        },
@@ -220,7 +220,7 @@
            answer: "A. Ujung stylus pen pemanasnya kurang atau ujung stylus kurang m enekan kertas"
        },
        {
-           question: "Ketika a l at ECG dipergunakan, setelah diprint ternyata jarak interval antar grafik menurut user/pemakai terlalu rapat sehingga menyulitkan dalam analisa pembacaan. Untuk penanganan hal ini dapat dilakukan dengan melakukan setting parameter Setting apa yang dapat dilakukan untuk menangani permasalahan diatas ?",
+           question: "Ketika alat ECG dipergunakan, setelah diprint ternyata jarak interval antar grafik menurut user/pemakai terlalu rapat sehingga menyulitkan dalam analisa pembacaan. Untuk penanganan hal ini dapat dilakukan dengan melakukan setting parameter Setting apa yang dapat dilakukan untuk menangani permasalahan diatas ?",
            options: ["A. Filter", "B. Lead record I, II, III", "C. Lead record aVR, aVL, aVF", "D. Parameter sensitifity 0.5x, 1x, 2x", "E. Paper speed 25mm/sec, 50mm/sec"],
            answer: "E. Paper speed 25mm/sec, 50mm/sec"
        },
@@ -3465,4 +3465,5 @@
         answer: "C Mengkalibrasi alat tersebut"
     }
    ];
+
    
