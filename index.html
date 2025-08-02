@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Soal Ujian UKOM</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; }
+        .container { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .question-item { margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+        .question-item p { font-weight: bold; margin-bottom: 10px; }
+        .question-item label { display: block; margin-bottom: 5px; cursor: pointer; }
+        .question-item input[type="radio"] { margin-right: 8px; }
+
+        /* Styles for feedback directly under the question */
+        .feedback { margin-top: 10px; padding: 8px; border-radius: 5px; font-weight: bold; }
+        .feedback.correct { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .feedback.wrong { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+
+        /* Styles for selected options */
+        .selected-option-correct { color: green; font-weight: bold; }
+        .selected-option-wrong { color: red; font-weight: bold; }
+
+        .result-summary { margin-top: 10px; font-weight: bold; color: #0056b3; }
+
+        .navigation-buttons { margin-bottom: 20px; display: flex; align-items: center; }
+        .navigation-buttons button { margin-right: 10px; padding: 10px 15px; cursor: pointer; }
+        .batch-info-container { display: flex; align-items: center; flex-grow: 1; }
+        .batch-info-container #batchInfo { margin-right: 10px; }
+        .batch-info-container #batchScoreDisplayNav { font-weight: bold; color: #0056b3; }
+
+
+        .submit-section { display: flex; align-items: center; margin-top: 20px; }
+        .submit-button { background-color: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 16px; margin-right: 15px; }
+        .submit-button:hover { background-color: #45a049; }
+        #submitScoreDisplay { font-weight: bold; color: #0056b3; }
+
+        /* Hide the old result section */
+        #resultSection { display: none !important; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Latihan Soal Ujian UKOM</h1>
+        <p>Pilih jawaban yang benar untuk setiap soal. Setelah selesai, klik "Submit Jawaban" untuk melihat hasilnya per batch.</p>
+
+        <div class="navigation-buttons">
+            <button id="prevBatchBtn" onclick="changeBatch(-1)" disabled>Batch Sebelumnya</button>
+            <div class="batch-info-container">
+                <span id="batchInfo">Batch 1</span>
+                <span id="batchScoreDisplayNav"></span> <!-- New: Score display next to batch info -->
+            </div>
+            <button id="nextBatchBtn" onclick="changeBatch(1)">Batch Selanjutnya</button>
+        </div>
+
+        <form id="quizForm">
+            <div id="questionsContainer">
+                <!-- Soal akan dimuat di sini oleh JavaScript -->
+            </div>
+            <div class="submit-section">
+                <button type="button" class="submit-button" onclick="submitQuiz()">Submit Jawaban</button>
+                <span id="submitScoreDisplay"></span> <!-- New: Score display next to submit button -->
+            </div>
+        </form>
+
+        <!-- The old resultSection is now hidden as feedback is inline -->
+        <div id="resultSection" class="result-section" style="display:none;">
+            <h2>Hasil Latihan Batch Ini</h2>
+            <p id="scoreDisplay"></p>
+            <div id="answerKey">
+                <h3>Kunci Jawaban Batch Ini:</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
