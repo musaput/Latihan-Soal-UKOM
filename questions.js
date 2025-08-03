@@ -1,255 +1,5 @@
 const allQuestions = [
        {
-           question: "Elektron yang bergerak menuju anoda sebagian mengenai sasaran (target), dan sebagian lagi mengenai bagian anoda lainnya. Elektron yang tidak mengenai target menyebabkan terjadinya radiasi sinar-x dengan arah yang tidak menentu. Kejadian tersebut disebut dengan?",
-           options: ["A. Heat", "B. Gassy", "C. Hill effect", "D. Heat effect", "E. Heat storage"],
-           answer: "C. Hill effect"
-       },
-       {
-           question: "Alat ECG di ruang IGD dilaporkan hasil cetaknya keriting dan blok hitam. Hasil pengamatan seorang elektromedis menyatakan kabel elektroda tidak ada yang putus, tegangan masukan 220V, grounding terukur 0.2 ohm, mode demo pada alat normal, elektroda dalam kondisi baik. Pemeriksaan apa yang harus dilakukan?",
-           options: ["A. Filter", "B. Konektor", "C. Elektroda", "D. Head Printer", "E. Kabel pembumian"],
-           answer: "D. Head Printer"
-       },
-       {
-           question: "Perawat Rumah Sakit akan melakukan pemeriksaan jantung pasien. Untuk keperluan hal tersebut diperlukan alat ECG. Pada manual book alat ECG terdapat spesifikasi alat yang tertulis 3 channel. Apa yang dimaksud dengan istilah 3 channel pada pesawat tersebut?",
-           options: ["A. ECG tersebut mempunyai 3 Filter", "B. ECG tersebut mempunyai 3 kabel masukan", "C. ECG tersebut mampu merekam 3 lead sekaligus", "D. ECG tersebut mampu memeriksa 3 pasien sekaligus", "E. ECG tersebut mampu menyimpan 3 data perekam"],
-           answer: "C. ECG tersebut mampu merekam 3 lead sekaligus"
-       },
-       {
-           question: "Pada unit Waterbath, heater/pemanas adalah komponen utama untuk bekerja atau tidaknya alat ini. Untuk mencegah kerusakan pada heater, ada hal yang harus diperhatikan dalam penggunaan air yang dipakai. Apa kriteria air yang harus digunakan pada waterbath tersebut?",
-           options: ["A. Air yang sudah diproses penguapan (Aquades)", "B. Air banyak mengandung mineral", "C. Air harus bersih dan jernih", "D. Air yang sudah direbus", "E. Air suling"],
-           answer: "A. Air yang sudah diproses penguapan (Aquades)"
-       },
-       {
-           question: "Seorang pasien dianjurkan melakukan pemotretan dengan menggunakan pesawat dental x-ray untuk pemeriksaan seluruh gigi. Yang saudara ketahui, pesawat apa yang dimaksud?",
-           options: ["A. Dental X-ray intra oral", "B. Dental micro source", "C. Dental panoramix", "D. Dental chromatic", "E. Dental chair"],
-           answer: "C. Dental Panoramix"
-       },
-       {
-           question: "Unit radiologi bergerak dapat beroperasional tetapi memunculkan error pada unit setelah 15–20 kali exposure. Ketika error code muncul maka x-ray tidak terjadi. Error code menjelaskan tentang adanya over current pada filament circuit. Apa yang harus dilakukan elektromedis dalam masalah tersebut?",
-           options: ["A. Perbaikan rangkaian mA kemudian kalibrasi", "B. Perbaikan rangkaian KV kemudian kalibrasi", "C. Perbaikan rangkaian space charge kemudian kalibrasi", "D. Perbaikan rangkaian over protection kemudian kalibrasi", "E. Perbaikan rangkaian control charging kemudian kalibrasi"],
-           answer: "D. Perbaikan rangkaian over protection kemudian kalibrasi"
-       },
-       {
-           question: "Sebuah alat infuse pump tidak bekerja dengan baik dengan keluhan terjadi gelembung udara pada tubing/selang. Perawat belum mengerti penggunaan alat karena alat baru beberapa hari dibeli. Sudah dilakukan penyetelan ulang oleh elektromedis untuk mengeluarkan bubble namun terjadi lagi adanya bubble pada tubing infuse pump. Apa prosedur yang harus dijelaskan oleh elektromedis kepada perawat?",
-           options: ["A. Prosedur pengoperasian", "B. Prosedur penyimpanan", "C. Prosedur pemeliharaan", "D. Prosedur penempatan", "E. Prosedur kalibrasi"],
-           answer: "C. Prosedur pengoperasian"
-       },
-       {
-           question: "Radiographer menyampaikan laporan keluhan kinerja unit radiologi bergerak di instalasinya. Setelah 10-15 kali exposure, unit tidak mampu menghasilkan x-ray. Hasil kalibrasi pada semua nilai mA nilainya out of tolerance dan mencapai +20% dari setting. Apa yang harus dilakukan elektromedis dalam masalah tersebut?",
-           options: ["A. Perbaikan rangkaian KV kemudian kalibrasi", "B. Perbaikan rangkaian exposure kemudian kalibrasi", "C. Perbaikan rangkaian over current kemudian kalibrasi", "D. Perbaikan rangkaian arus tabung kemudian kalibrasi", "E. Perbaikan rangkaian space charge kemudian kalibrasi"],
-           answer: "E. Perbaikan rangkaian arus tabung kemudian kalibrasi"
-       },
-       {
-           question: "Unit infuse pump yang baru saja dibeli tidak bekerja dengan baik dengan keluhan gelembung udara pada tubing. Saat uji fungsi pertama kali berjalan normal. Tenaga elektromedis sudah berkali-kali menangani keluhan tersebut dengan mempraktikkan bagaimana mengeluarkan bubble dari tubing kepada perawat. Hanya saja keluhan yang sama terjadi lagi. Apakah prosedur yang harus disusun oleh elektromedis yang dapat membantu perawat menangani masalah tersebut?",
-           options: ["A. Prosedur kalibrasi", "B. Prosedur perbaikan", "C. Prosedur pemantauan", "D. Prosedur pemeliharaan", "E. Prosedur pengoperasian"],
-           answer: "E. Prosedur pengoperasian"
-       },
-       {
-           question: "Dilaporkan oleh teknisi pelaksana elektromedik pemula, bahwa ada laporan kerusakan alat roentgen hasil film yang dibuat radiografer kadang tidak sesuai dengan ukuran yang dibuat saat preposisi kolimasi penyinaran pada kolimator. Dari 11-15 preposisi kolimasi yang dilakukan 1-2 salah pengukuran. Apa prosedur yang harus dilakukan oleh teknisi elektromedis?",
-           options: ["A. Kalibrasi", "B. Perbaikan", "C. Penggantian", "D. Pemantauan", "E. Pemeliharaan"],
-           answer: "A. Kalibrasi"
-       },
-       {
-           question: "Sebuah defibrilator diletakkan di ruang IGD rumah sakit. Catatan pada buku pemeliharaan berkala di bulan Mei 2016 adalah terdapat penggantian baterai dengan spesifikasinya yaitu 14,4 VDC/3,0 AH/NICD. Berapa tahunkah idealnya penggantian baterai pada alat tersebut?",
-           options: ["A. 1 tahun", "B. 2 tahun", "C. 3 tahun", "D. 4 tahun", "E. 5 tahun"],
-           answer: "B. 2 tahun"
-       },
-       {
-           question: "Seorang terapis akan melakukan terapi terhadap pasien berpenyakit asma dengan menggunakan nebulizer ultrasound, tetapi pesawat dinyalakan tidak terjadi aerosol/penguapan padahal obat sudah dimasukkan. Setelah diamati kabel power sudah terpasang, lampu indikator menyala dan timer sudah disetting. Dari permasalahan di atas selaku praktisi elektromedis apa yang saudara akan lakukan?",
-           options: ["A. Mengecek kipas", "B. Mengecek piezoelektrik", "C. Mengecek Kabel supply", "D. Mengecek rangkaian timer", "E. Mengecek rangkaian osilator"],
-           answer: "B. Mengecek Piezoelektrik"
-       },
-       {
-           question: "Saat dilakukan inkubasi di alat inkubator heater basah ternyata heater tidak bekerja sehingga air di bejana tidak hangat sedangkan indikator lampu power sudah menyala, timer sudah diputar sesuai waktu yang sudah diinginkan. Apakah yang harus dilakukan selaku elektromedik mengenai kasus tersebut?",
-           options: ["A. Melakukan pemeriksaan bagian timer", "B. Melakukan pemeriksaan bagian pengatur panas", "C. Melakukan pemeriksaan level (volume) air pada bak waterbath", "D. Melakukan pemeriksaan dan perbaikan bagian timer", "E. Melakukan pemeriksaan bagian pengatur panas dan membersihkan bak air pada waterbath"],
-           answer: "D. Melakukan pemeriksaan bagian pengatur panas"
-       },
-       {
-           question: "Pada saat seorang operator mengoperasikan alat centrifuge terjadi getaran dan gerakan yang keras pada alat centrifuge tersebut. Apakah yang pertama kali harus dilakukan seorang operator?",
-           options: ["A. Memeriksa kondisi tabung", "B. Memeriksa motor pada centrifuge", "C. Memeriksa tegangan jala-jala PLN", "D. Mengatur kembali pengaturan kecepatan", "E. Memeriksa rangkaian kecepatan motor"],
-           answer: "A. Memeriksa kondisi tabung"
-       },
-       {
-           question: "Seorang perawat mengoperasikan syringe pump dengan kecepatan 120 mL/jam dan menggunakan spuit 30 cc dan jumlah obat yang disuntikkan adalah 20 mL. Berapa waktu diperlukan untuk obat tersebut habis?",
-           options: ["A. 10 menit", "B. 20 menit", "C. 40 menit", "D. 60 menit", "E. 90 menit"],
-           answer: "A. 10 menit"
-       },
-       {
-           question: "Pada alat ECG recorder dengan kondisi elektroda baik, kalibrasi 1 mV hasil baik. Tetapi jika digunakan pada pasien, grafik Lead 2 dan Lead 3 muncul interferensi. Sedangkan pada Lead 1 hasil grafik baik. Kemungkinan alat tersebut mengalami gangguan pada kabel pasien. Bagian manakah kabel yang mengalami gangguan tersebut?",
-           options: ["A. Arde", "B. Kaki kiri", "C. Kaki kanan", "D. Tangan kiri", "E. Tangan kanan"],
-           answer: "B. Kaki kiri"
-       },
-       {
-           question: "Baby incubator yang digunakan terdapat 2 nilai suhu yang dapat diamati oleh user yaitu suhu bayi dan suhu di dalam ruangan inkubator. Namun ketika sebuah alat baby incubator sedang difungsikan tiba-tiba suhu di dalam ruang bayi ini ternyata nilai suhunya tidak dapat ditampilkan pada display. Dari permasalahan di atas analisa awal apa yang mengalami kerusakan?",
-           options: ["A. Air probe sensor", "B. Skin probe sensor", "C. Humidity probe sensor", "D. Display dan air probe sensor", "E. Display pada skin probe sensor"],
-           answer: "D. Display dan air probe sensor"
-       },
-       {
-           question: "Perawat meragukan hasil ukur sebuah sphygmomanometer air raksa. Ketika teknisi elektromedik melakukan pengukuran tekanan air raksa pada alat tersebut didapat selisih nilai antara alat ukur dan sphygmomanometer tersebut. Setelah alat diperiksa terdapat tumpahan air raksa di sekitarnya sphygmomanometer. Apakah yang harus saudara lakukan pertama kali untuk menangani alat tersebut?",
-           options: ["A. Melakukan kalibrasi", "B. Menambahkan air raksa", "C. Melakukan perbaikan", "D. Memeriksa kebocoran air raksa", "E. Memasukkan kembali air tumpahan air raksa"],
-           answer: "B. Menambahkan Air Raksa"
-       },
-       {
-           question: "ECG Rekam dalam potensial listrik otot jantung mengenal dengan sistem bipolar atau segitiga Einthoven. Untuk mengukur LEAD III. Pengukuran diambil di titik.",
-           options: ["A. RF (-) dan LF (+)", "B. LA (-) dan LF (+)", "C. LF (-) dan LA (+)", "D. RA (-) dan LF (+)", "E. RA (-) dan LA (+)"],
-           answer: "D. RA (-) dan LF (+)"
-       },
-       {
-           question: "Pelayanan kesehatan di bagian fisioterapi menggunakan peralatan infra red untuk terapi pasien yang nyeri sendi, radang saraf, meningkatkan sirkulasi darah. Berapa jarak antara lampu infrared dengan area terapi pada pasien?",
-           options: ["A. 15-25 cm", "B. 25-50 cm", "C. 50-75 cm", "D. 75-100 cm", "E. 100-125 cm"],
-           answer: "B. 25-50 cm"
-       },
-       {
-           question: "Pelayanan kesehatan di bagian fisioterapi menggunakan peralatan infra red untuk terapi pasien yang nyeri sendi, radang saraf, meningkatkan sirkulasi darah. Berapa panjang gelombang elektromagnetik lampu tersebut?",
-           options: ["A. 0,75 nm – 40 nm", "B. 7,5 nm – 400 nm", "C. 75 nm – 4000 nm", "D. 750 nm – 40.000 nm", "E. 7500 nm – 400.000 nm"],
-           answer: "D. 750 nm – 40.000 nm"
-       },
-       {
-           question: "Ultra Sono Grafi yang sering disingkat USG sebagai alat radiologi untuk melihat pencitraan di dalam tubuh dengan menggunakan sistem piezoelektrik. Bila dalam pencitraan scanning di monitor USG tidak bisa penuh, ada sebagian yang tidak terdeteksi. Di bagian mana kerusakan alat terjadi?",
-           options: ["A. System TX", "B. System RX", "C. Transduser", "D. B-Mode", "E. Gain"],
-           answer: "C. Transduser"
-       },
-       {
-           question: "Fototerapi merupakan salah satu alat untuk mengobati bayi lahir dengan tingkat kadar bilirubin yang tinggi melalui cahaya lampu. Berapa panjang gelombang cahaya lampu tersebut?",
-           options: ["A. 430 – 440 nm", "B. 440 – 450 nm", "C. 450 – 460 nm", "D. 470 – 480 nm", "E. 720 – 780 nm"],
-           answer: "C. 450 - 460 nm"
-       },
-       {
-           question: "Dilaporkan terjadi permasalahan pada centrifuge dimana alat tersebut tidak dapat memisahkan partikel padat pada darah, padahal motor centrifuge dapat berputar seperti biasanya. Terkait dengan laporan tersebut, tenaga elektromedis melakukan pengecekan pada motor centrifuge. Apa langkah awal yang perlu dilakukan untuk kasus tersebut?",
-           options: ["A. Kalibrasi", "B. Perbaikan", "C. Adjustment", "D. Pemantauan", "E. Pemeliharaan"],
-           answer: "B. Perbaikan"
-       },
-       {
-           question: "Perawat melaporkan hasil perekaman pada pesawat RCG mengalami permasalahan dimana gambar yang dihasilkan dari LEAD I, II, III terjadi noise, saat dilakukan pengecekan kabel elektrode ternyata terdapat kabel yang kendor. Kabel apakah yang menyebabkan masalah tersebut terjadi?",
-           options: ["A. LF", "B. RL", "C. LA dan atau LF", "D. RA dan atau LF", "E. LA dan atau RA"],
-           answer: "C. RL" // Jawaban ini sepertinya salah, seharusnya RL tidak menyebabkan noise pada LA dan LF secara bersamaan. Mungkin maksudnya kabel grounding (RL) atau ada kesalahan pada soal/jawaban asli. Saya biarkan sesuai aslinya.
-       },
-       {
-           question: "Perawat melaporkan hasil perekaman pada pesawat RCG mengalami permasalahan dimana gambar yang dihasilkan dari LEAD III terjadi noise, saat dilakukan pengecekan kabel elektrode ternyata terdapat kabel yang kendor. Kabel apakah yang menyebabkan masalah tersebut terjadi?",
-           options: ["A. LF", "B. C1", "C. LA dan atau LF", "D. RA dan atau LF", "E. LA dan atau RA"],
-           answer: "C. LA dan atau LF"
-       },
-       {
-           question: "Perawat melaporkan hasil perekaman pada pesawat RCG mengalami permasalahan dimana gambar yang dihasilkan dari LEAD I terjadi noise, saat dilakukan pengecekan kabel elektrode ternyata terdapat kabel yang kendor. Kabel apakah yang menyebabkan masalah tersebut terjadi?",
-           options: ["A. LF", "B. C1", "C. LA dan atau LF", "D. RA dan atau LF", "E. LA dan atau RA"],
-           answer: "D. LA dan atau RA"
-       },
-       {
-           question: "Perawat melaporkan hasil perekaman pada pesawat ECG mengalami permasalahan dimana gambar yang dihasilkan dari lead C5 dan C6 terjadi noise, saat dilakukan pengecekan kabel elektrode, kabel dalam kondisi baik, kabel grounding juga terpasang dengan baik. Faktor kerusakan apakah yang biasanya menjadi penyebab masalah tersebut?",
-           options: ["a. Rangkaian buffer", "b. Rangkaian amplifier", "c. Rangkaian heat stylus", "d. Kabel grounding lepas", "e. Connector ke pasien buruk"],
-           answer: "e. Connector ke pasien buruk"
-       },
-       {
-           question: "Perawat melaporkan hasil perekaman pada pesawat ECG mengalami permasalahan dimana gambar dari seluruh lead yang dihasilkan mengalami noise, saat dilakukan pengecekan kabel elektrode, kabel dalam kondisi baik. Connector elektrode dengan pasien juga dalam kondisi yang baik. Kabel grounding juga terpasang dengan baik. Faktor kerusakan apakah yang biasanya menjadi penyebab masalah tersebut?",
-           options: ["A. Rangkaian filter", "B. Rangkaian amplifier", "C. Rangkaian heat stylus", "D. Kabel elektrode putus", "E. Kabel grounding lepas"],
-           answer: "A. Rangkaian filter"
-       },
-       {
-           question: "Pada saat dilakukan kalibrasi pada output gas O2 mesin anastesi, dari kalibrasi yang dilakukan menunjukkan nilai output dari mesin anastesi menunjukkan nilai kurang dari ambang batas nilai toleransi minimum yang diizinkan. Kerusakan pada komponen apakah yang terkait dengan permasalahan tersebut?",
-           options: ["A. Kebocoran tabung gas", "B. Vaporizer rusak", "C. Tekanan udara", "D. Valve bocor", "E. Gas O2"],
-           answer: "D. Valve bocor"
-       },
-       {
-           question: "Saat terjadi pemadaman listrik, alat baby incubator juga ikut padam padahal seharusnya alat tersebut tidak boleh padam saat terjadi pemadaman listrik dari PLN. Kemudian perawat melaporkan hal tersebut ke bagian teknik medis. Apakah tindakan awal pemeriksaan yang harus dilakukan terkait dengan permasalahan tersebut?",
-           options: ["A. Power supply", "B. Muatan baterai back up", "C. Rangkaian alarm baterai", "D. Rangkaian charging baterai", "E. Rangkaian switch pemindahan tegangan"],
-           answer: "E. Rangkaian switch pemindahan tegangan"
-       },
-       {
-           question: "Alat bubble CPAP merupakan suatu alat yang digunakan untuk mempertahankan tekanan positif pada saluran napas neonatus selama pernapasan spontan. CPAP merupakan suatu alat sederhana dan efektif untuk terlaksananya respiratory distress pada neonatus. Di ruang manakah pada umumnya alat tersebut diletakkan?",
-           options: ["A. ICU", "B. IGD", "C. HND", "D. ICCU", "E. NICU"],
-           answer: "E. NICCU"
-       },
-       {
-           question: "Dokter melaporkan terjadi permasalahan pada hasil gambar yang muncul pada monitor USG, dimana gambar hasil USG yang muncul pada display monitor terdapat blank spot pada area tertentu. Sehingga menyebabkan hasil pembacaan diagnose terganggu dengan adanya permasalahan tersebut. Faktor utama apakah yang menyebabkan kerusakan pada kasus tersebut?",
-           options: ["A. Probe", "B. Printer", "C. Keypad", "D. Hardisk", "E. Monitor"],
-           answer: "A. Probe"
-       },
-       {
-           question: "Setiap alat elektromedik memerlukan pemeliharaan agar alat selalu dalam keadaan laik pakai. Apakah nama pemeliharaan yang dilakukan setelah alat mengalami kerusakan?",
-           options: ["A. Daily", "B. Monthly", "C. Yearly", "D. Corrective", "E. Preventive"],
-           answer: "E. Corrective"
-       },
-       {
-           question: "Alat CTG, Doppler dan USG adalah alat diagnostik yang memiliki prinsip dasar yang sama, yaitu memanfaatkan gelombang ultrasound. Bagian mana dari ketiga alat tersebut yang harus sering dibersihkan setelah digunakan pada pasien?",
-           options: ["A. Kabel", "B. Transducer", "C. Layar peraga", "D. Alat perekam", "E. Kontrol konsol"],
-           answer: "B. Transducer"
-       },
-       {
-           question: "Perawatan gigi tidak terlepas dari alat yang disebut Dental Unit. Alat tersebut memanfaatkan mixer dari air dan angin dari kompresor unit. Berapakah tekanan kompresor yang dibutuhkan untuk alat tersebut?",
-           options: ["A. 2,5 - 3 atm", "B. 2,5 - 4 atm", "C. 2 - 3 atm", "D. 3 - 5 atm", "E. 3 – 7 atm"],
-           answer: "B. 2.5 – 4 atm"
-       },
-       {
-           question: "Sebuah suction pump di IGD tidak berfungsi, setelah dilakukan pengecekan tekanan output sesuai spesifikasi. Pemeriksaan kondisi tabung wall suction tidak terdapat keretakan atau pecah. Sambungan antara wall suction dengan outlet tidak ada kebocoran, hanya terdengar suara desis. Namun test fungsi tabung suction tidak berhasil, tetapi bila digunakan tabung wall suction lain, alat berfungsi dengan baik. Apakah yang menjadi penyebab gangguan pada alat tersebut?",
-           options: ["A. Kebocoran pada konektor", "B. Kebocoran valve seal", "C. Kerusakan manometer", "D. Kerusakan regulator", "E. Kerusakan selang"],
-           answer: "B. Kebocoran valve seal"
-       },
-       {
-           question: "Jantung merupakan organ yang mampu memproduksi impuls listrik secara mandiri. Karena tubuh merupakan konduktor yang cukup baik, maka impuls yang dihasilkan dapat menjalar ke seluruh tubuh, sehingga potensial aksinya yang timbul saat jantung berkontraksi dapat diukur melalui galvanometer melalui elektroda yang dipasang pada berbagai posisi, gambaran grafik yang dihasilkan oleh galvanometer ini sangat membantu menegakkan diagnosa kesehatan jantung. Ketika akan memasang elektroda, kulit pasien dibersihkan dan diberi jelly khusus, apa fungsi jelly tersebut?",
-           options: ["A. Agar kulit pasien tidak rusak karena elektroda bermuatan listrik", "B. Agar elektroda tidak cepat rusak karena kulit pasien berkeringat", "C. Agar resistansi antar elektroda dan kulit pasien menjadi seminimal mungkin", "D. Agar resistansi antara elektroda dan kulit pasien menjadi semaksimal mungkin", "E. Agar kapasitansi antara elektroda dan kulit pasien menjadi seminimal mungkin"],
-           answer: "C. Agar resistansi antar electrode dan kulit pasien menjadi seminimal mungkin"
-       },
-       {
-           question: "Suatu rumah sakit akan membangun ruangan operasi, dan akan membeli mesin anastesi untuk mengoperasikannya dibutuhkan instalasi gas medis. Apa jenis kompresor untuk menghasilkan fresh air yang akan digunakan untuk alat ini?",
-           options: ["A. Oil free compressor", "B. Compressor dua tank", "C. Compressor satu tank", "D. Bubble free compressor", "E. Stepper motor compressor"],
-           answer: "E. Stepper motor compressor"
-       },
-       {
-           question: "Seorang laboran melakukan kegiatan praktik di laboratorium, alat yang digunakan untuk praktik adalah blood warmer. Apa prinsip kerja dari blood warmer?",
-           options: ["A. Menggunakan rotor untuk memulai sampel darah", "B. Memanfaatkan heater sebagai energi panas", "C. Menggunakan elektroda sebagai sensor", "D. Menggunakan elektroda referensi", "E. Menggunakan strip pengukuran"],
-           answer: "B. Memanfaatkan heater sebagai energi panas"
-       },
-       {
-           question: "Suatu klinik rontgen membeli pesawat rontgen general purpose dari suatu rumah sakit umum dengan kapasitas 125 KV, 500 mA, satu fasa, dengan full wave rectifier memiliki beberapa jenis teknik pemotretan, proses pembelian sampai dengan pemasangan memakan waktu sampai dua bulan. Termasuk kategori kelas apa alat rontgen yang dibeli tersebut?",
-           options: ["A. Super exclusive", "B. Exclusive", "C. Medium", "D. Ringan", "E. Berat"],
-           answer: "C. Medium"
-       },
-       {
-           question: "Suatu klinik rontgen membeli pesawat rontgen general purpose dari suatu rumah sakit umum dengan kapasitas 125 KV, 500 mA, satu fasa, dengan full wave rectifier memiliki beberapa jenis teknik pemotretan, proses pembelian sampai dengan pemasangan memakan waktu sampai dua bulan. Apakah langkah pertama yang harus dilakukan dalam mengoperasikan pesawat tersebut?",
-           options: ["A. Memanaskan tabung pesawat rontgen secara bertahap mulai dari 50 KV, 1 mA selama 0,1 detik, dengan kenaikan tegangan setiap tahap 10 KV sampai tegangan 80 KV, dengan waktu istirahat 1 menit", "B. Memanaskan tabung pesawat rontgen secara bertahap mulai dari 60 KV, 1 mA selama 0,1 detik, dengan kenaikan tegangan setiap tahap 10 KV sampai tegangan 80 KV, dengan waktu istirahat 1 menit", "C. Memanaskan tabung pesawat rontgen secara bertahap mulai dari 70 KV, 1 mA selama 0,1 detik, dengan kenaikan tegangan setiap tahap 10 KV sampai tegangan 80 KV, dengan waktu istirahat 1 menit", "D. Memanaskan tabung pesawat rontgen secara bertahap mulai dari 80 KV, 1 mA selama 0,1 detik,", "E. Tidak perlu pemanasan"],
-           answer: "A. Memanaskan tabung pesawat rontgen secara bertahap mulai dari 50 KV, 1 mA selama 0,1 detik, dengan kenaikan tegangan setiap tahap 10 KV sampai tegangan 80 KV, dengan waktu istirahat 1 menit"
-       },
-       {
-           question: "Pada saat petugas melakukan pemeriksaan pasien dengan menggunakan patient monitor ternyata tidak ada data pada layar monitor, kondisi layar keadaan on. Apakah penyebab utama kondisi layar tersebut?",
-           options: ["A. Kabel daya listrik dengan pasien monitor kurang baik", "B. Kabel elektroda dengan pasien kurang baik", "C. Kabel monitor dengan PCB kurang baik", "D. Kabel grounding kurang baik", "E. Baterai kurang baik"],
-           answer: "D. Kabel grounding kurang baik"
-       },
-       {
-           question: "Pada saat petugas elektromedis melakukan proses pemanasan pada alat ECG di bagian UGD suatu rumah sakit, dengan spesifikasi antara lain ECG single lead, menggunakan Hot stylus pen, kertas perekam (paper graph) khusus ternyata tidak terjadi hasil rekaman (trace). Apakah penyebab tidak terjadi hasil rekaman?",
-           options: ["A. Ujung stylus pen pemanasnya kurang atau ujung stylus kurang menekan kertas", "B. Posisi roller kertas perekam turun", "C. Kertas perekam", "D. Pada elektroda", "E. Jenis pena"],
-           answer: "A. Ujung stylus pen pemanasnya kurang atau ujung stylus kurang menekan kertas"
-       },
-       {
-           question: "Ketika alat ECG dipergunakan, setelah diprint ternyata jarak interval antar grafik menurut user/pemakai terlalu rapat sehingga menyulitkan dalam analisa pembacaan. Untuk penanganan hal ini dapat dilakukan dengan melakukan setting parameter. Setting apa yang dapat dilakukan untuk menangani permasalahan di atas?",
-           options: ["A. Filter", "B. Lead record I, II, III", "C. Lead record aVR, aVL, aVF", "D. Parameter sensitivity 0.5x, 1x, 2x", "E. Paper speed 25mm/sec, 50mm/sec"],
-           answer: "E. Paper speed 25mm/sec, 50mm/sec"
-       },
-       {
-           question: "Ketika sebuah alat syringe pump akan digunakan, maka hal pertama yang dilakukan adalah menghubungkan kabel power pada sumber jala-jala listrik kemudian menekan tombol ON. Namun setelah tombol ON ditekan, indikator lampu on tidak menyala dan preparing self test tidak berjalan. Setelah dicek fuse, sumber jala-jala listrik dan power cord cable dalam kondisi baik. Analisa awal yang dilakukan, kerusakan terdapat pada bagian apa?",
-           options: ["A. Handling/Plunger syringe bermasalah", "B. Board control motor bermasalah", "C. Board power supply bermasalah", "D. Syringe detector bermasalah", "E. Display LCD bermasalah"],
-           answer: "C. Board power supply bermasalah"
-       },
-       {
-           question: "Ketika Drip sensor/Detector pada alat infus pump tidak terpasang/dipasang, maka sebelum difungsikan alat ini harus disetting OFF pada setting Drip sensor/detectornya. Secara umum alat ini akan berfungsi, tapi ada pembacaan yang tidak dapat ditampilkan. Pembacaan apakah yang tidak bisa ditampilkan dari kejadian di atas?",
-           options: ["A. Time & Date", "B. Setting awal flow rate", "C. Jumlah mL cairan yang sudah keluar", "D. Gelembung udara pada tubing di IV set", "E. Elastisitas pressure pada tubing di IV set"],
-           answer: "C. Jumlah mL cairan yang sudah keluar"
-       },
-       {
-           question: "Seorang dokter spesialis ortopedi mengajukan permintaan ruangan operasi untuk bedah tulang. Manajemen menyampaikan agar teknisi elektromedik dapat membuat perencanaan alat yang dibutuhkan mulai dari instrumen ortopedi set, meja operasi ortopedi, illuminator, bor ortopedi set, elektrosurgery unit, monitor pasien, mesin anastesi dan suction pump. Untuk mensupport dokter dalam melakukan bedah tulang diperlukan alat radiologi. Apa peralatan radiologi yang dibutuhkan untuk mensupport dokter ortopedi di ruang operasi?",
-           options: ["A. X-ray konvensional dengan 500mA", "B. Mobile X-ray High Frequency", "C. Portable X-ray unit", "D. Alat C-Arm", "E. Alat USG"],
-           answer: "D. Alat C-Arm"
-       },
-       {
-           question: "Pencegahan terjadinya kontak badan akibat arus bocor dari peralatan medik perlu dilakukan agar dapat mencegah bahaya bagi pasien, user/pengguna alat dan elektromedis. Apa yang harus dilakukan dalam mengatasi permasalahan tersebut?",
-           options: ["A. Memasang filter pada jaringan listrik", "B. Memasang stabilisator tegangan pada alat", "C. Memasang handle switch agar bisa dimatikan", "D. Memasang volt meter dan amper meter pada setiap panel listrik", "E. Memasang grounding/pembumian dengan tahanan di bawah 2m"],
-           answer: "E. Memasang grounding/pembumian dengan tahanan dibawah 2m"
-       },
-       {
-           question: "Dalam perencanaan ruangan radiologi untuk pesawat rontgen harus dipasang lampu indikator berwarna merah dan tanda/marka bahaya radiasi sehingga operator dan pengunjung dapat mengetahui bahaya dari radiasi. Hal ini menjadi standar dari akreditasi rumah sakit dan K3 RS. Apa fungsi dari indikator lampu merah pada ruang tersebut?",
-           options: ["A. Sudah mulai pelayanan di ruang rontgen", "B. Operator sudah berada di ruang rontgen", "C. Alat sedang menghasilkan radiasi sinar X", "D. Alat rontgen sudah dalam keadaan hidup", "E. Pasien sudah selesai difoto"],
-           answer: "A. Sudah mulai pelayanan di ruang rontgen"
-       },
-       {
            question: "Dalam perencanaan pemeliharaan peralatan elektromedik banyak hal yang harus dipertimbangkan dan dievaluasi sehingga didapatkan peralatan yang berkualitas dan tidak menjadi permasalahan di kemudian hari. Apakah pertimbangan teknis utama agar dipenuhi harapan tersebut?",
            options: ["A. Merk dari alat yang direncanakan", "B. Harga dari alat yang direncanakan", "C. Spesifikasi dari alat yang direncanakan", "D. Buku manual dari alat yang direncanakan", "E. Pelayanan marketing dari alat yang direncanakan"],
            answer: "D. Buku manual dari alat yang direncanakan"
@@ -335,11 +85,6 @@ const allQuestions = [
            answer: "A. Karet seal pada gelas cairan"
        },
        {
-           question: "Sebuah centrifuge dilaporkan ketika dihidupkan tidak bisa berputar, setelah dilakukan pengecekan awal sumber listrik normal 220 Volt, indikator on/off di saklar menyala, rotor diputar manual normal. Bagaimanakah langkah pengecekan yang paling efektif dan efisien pada alat tersebut?",
-           options: ["A. Pengecekan Kabel-kabel, sikat arang/cool booster, gulungan motor dan kapasitor", "B. Pengecekan sikat arang/cool booster, kabel-kabel, gulungan motor dan kapasitor", "C. Pengecekan gulungan motor, sikat arang/cool booster, kabel-kabel dan kapasitor", "D. Pengecekan kapasitor, gulungan motor, sikat arang/cool booster dan kabel-kabel", "E. Pengecekan kabel-kabel, sikat arang/cool booster, kapasitor dan gulungan motor"],
-           answer: "A. / E. Pengecekan Kabel-kabel, sikat arang/cool booster, gulungan motor dan kapasitor"
-       },
-       {
            question: "Sebuah spygmomanometer air raksa dilaporkan hasil pengukurannya selalu tinggi oleh petugas. Setelah dilakukan pengecekan oleh tenaga elektromedis semua komponennya bagus. Apa yang harus dilakukan pertama kali untuk mengetahui kebenaran tersebut?",
            options: ["A. Dilakukan kalibrasi", "B. Mengurangi air raksa", "C. Penambahan air raksa", "D. Penggantian tabung ukur", "E. Penggantian seal tabung ukur"],
            answer: "A. Dilakukan kalibrasi"
@@ -383,11 +128,6 @@ const allQuestions = [
            question: "Akan dilakukan instalasi lampu operasi pada sebuah kamar Operasi RS. Lampu operasi yang dipasang adalah jenis dual arm (2 lengan). Setiap menyerap arus listrik 10A dengan tegangan 24 V DC. Rangkaian power supply diletakkan di atas plafon kamar operasi dimana lampu tersebut akan dipasang. Apakah salah satu bahan yang harus Anda sediakan sebelum proses pemasangan?",
            options: ["A. Besi drat", "B. Baut 6mm", "C. Papan Tebal", "D. Semen Putih", "E. Plat Aluminium"],
            answer: "C. Papan Tebal"
-       },
-       {
-           question: "Sebuah centrifuge dioperasikan dengan beberapa kecepatan putar yang berbeda-beda. Pada saat diputar dengan kecepatan 2000RPM, alat berfungsi dengan baik. Pada saat dioperasikan dengan kecepatan putar 3000RPM, terdengar suara bising dan unit bergetar. Pada kecepatan 4000RPM getaran semakin keras dan muncul pesan kesalahan. Apakah saran terbaik yang dapat disampaikan kepada user tentang kondisi tersebut?",
-           options: ["A. Mengoperasikan alat dengan jumlah sampel ½ dari kapasitas alat", "B. Melakukan pemanasan alat sebelum menggunakan alat tersebut", "C. Tidak mengoperasikan alat hingga selesai dilakukan perbaikan", "D. Mengoperasikan alat pada RPM di bawah 3000", "E. Meletakkan centrifuge pada permukaan datar"],
-           answer: "B. Tidak mengoperasikan alat hingga selesai dilakukan perbaikan"
        },
        {
            question: "Sebuah alat rontgen pada instalasi radiologi RS tidak berfungsi dengan baik. Bayangan radiografi pasien tidak muncul pada film setelah dilakukan penyinaran. Pada saat dilakukan pemeriksaan, diketahui bahwa semua indikator berfungsi dengan baik pada saat awal alat dihidupkan. Alarm terdengar pada saat tombol preparation ditekan. Apakah langkah pertama yang harus dapat dilakukan?",
@@ -458,11 +198,6 @@ const allQuestions = [
            question: "Seorang analis mau memakai mikroskop. Setelah tombol power ditekan, lampu halogen menyala. Pada saat akan melihat preparat, terlihat gelap. Bagian apa yang pertama kali diatur untuk mengatasi permasalahan tersebut?",
            options: ["A. Okuler", "B. Diafragma", "C. Kondenser", "D. Lensa objektif", "E. Lampu"],
            answer: "B. Diafragma"
-       },
-       {
-           question: "Seorang analis laboratorium sedang menggunakan centrifuge. Kecepatan 4000 rpm dan waktunya diatur 5 menit. Pada saat tombol “start” ditekan motor tidak mau berputar, tapi pada saat dibantu digerakan dengan tangan mau berputar. Apa penyebab utama kejadian tersebut?",
-           options: ["A. Rotor kotor", "B. Tegangan rendah", "C. Sikat arang menipis", "D. Sampel terlalu banyak", "E. Sumber listrik tidak stabil", "F. Rotor kotor"],
-           answer: "F. Rotor kotor"
        },
        {
            question: "Seorang teknisi mau memasang timbangan analitik di laboratorium X. Sebelum melakukan pemasangan, teknisi tersebut mengecek ruangan yang akan dijadikan tempat timbangan analitik tersebut dipasang. Apa syarat utama untuk tempat pemasangan alat tersebut?",
@@ -568,11 +303,6 @@ const allQuestions = [
     question: "Pelayanan kesehatan memerlukan EKG untuk mendiagnosa keadaan jantung pasien. EKG sering ditempatkan di IGD, Bangsal, ICU maupun IBS. Bagian dari peralatan apakah EKG?",
     options: ["A. Peralatan hematologi", "B. Peralatan neurologi", "C. Peralatan kardiologi", "D. Peralatan radiologi", "E. Peralatan obstetri"],
     answer: "C. Peralatan Kardiologi"
-},
-{
-    question: "Rumah sakit memasang peralatan USG untuk menunjang kegiatan pelayanan rawat jalan. USG yang dipasang dengan kapasitas daya 800 Watt disertai dengan monitor dan printernya. Diperlukan UPS yang secara otomatis dapat melakukan stabilisasi tegangan ketika terjadi perubahan tegangan pada input sehingga tegangan output yang digunakan stabil. Hasil pemeriksaan pasien dengan penggunaan salah satu probe didapatkan pada tampilan monitor timbul garis berbayang.",
-    options: ["A. Menyiapkan gel", "B. Menyediakan spare part", "C. Merencanakan biaya kalibrasi", "D. Pemeliharaan peralatan berkala", "E. Merencanakan desinfektan untuk cairan pembersih peralatan"],
-    answer: "B. Menyediakan Sparepart"
 },
 {
     question: "Ketika menguji keluaran defibrillator, teknisi elektromedis harus berhati-hati karena besar tegangan yang ada pada kedua pedal dapat mencapai ribuan volt. Sebuah defibrillator memiliki kapasitor dengan spesifikasi 10uF dan disetting pada 125 Joule. Energi tersebut dapat disimpan pada sebuah kapasitor yang tertanam pada unit. Berapa tegangan yang akan timbul pada kedua ujung pedal tersebut jika unit defibrillator digunakan ke pasien?",
@@ -1175,11 +905,6 @@ const allQuestions = [
         answer: "e. Mengecek motor penggerak moving grid."
     },
     {
-        question: "Setelah melakukan proses pemeliharaan adalah pencatatan. Pencatatan yang perlu dilakukan adalah?",
-        options: ["a. Mencatat di kartu pemeliharaan alat.", "b. Meminta tanda tangan pengguna, bukti pekerjaan alat telah dilakukan", "c. Mencatat pekerjaan alat lain yang akan dilakukan berikutnya.", "d. Mengisi Lembar kerja pemeliharaan/workorder.", "e. Mengisi laporan kerja pemeliharaan."],
-        answer: "c. Mencatat pekerjaan alat lain yang akan dilakukan berikutnya."
-    },
-    {
         question: "Pada pemeriksaan gigi pasien diperlukan dental chair. Dental chair ini sangat membantu dokter dan perawat gigi untuk mendapatkan posisi pemeriksaan pasien yang nyaman dan tepat. Posisi duduk pasien dan sandaran punggungnya dapat digerakkan naik dan turun. Apakah teknik sistem pengungkitan yang digunakannya?",
         options: ["a. Pneumatic dan udara", "b. Hidraulic dan air", "c. Hidraulic dan udara", "d. Pneumatic dan hidraulic", "e. Hidraulic dan oli"],
         answer: "d. Pneumatic dan hidraulic"
@@ -1505,11 +1230,6 @@ const allQuestions = [
         answer: "c. Chamber humidifier"
     },
     {
-        question: "Suatu alat EKG ditempatkan di ruang ICCU. Semua aksesori dan kabel telah terpasang dengan baik. Setting alat sudah sesuai SOP, saat ditekan tombol start ternyata hasil kertas EKG terdapat trilling pada beberapa lead. Apakah yang harus dilakukan oleh seorang teknisi elektromedik untuk mengatasi masalah ini?",
-        options: ["a. Periksa dan perbaiki pemasangan kabel pasien", "b. Periksa dan perbaiki pemasangan kabel F", "c. Periksa apakah filter sudah aktif", "d. Periksa apakah kabel pasien sudah terlumasi gel", "e. Periksa apakah kabel ground terbalik"],
-        answer: "e. Periksa apakah kabel ground terbalik"
-    },
-    {
         question: "Heater merupakan komponen penting pada alat Waterbath. Untuk memelihara heater pada Waterbath supaya tidak rusak sebaiknya dilengkapi dengan?",
         options: ["a. Kontrol suhu", "b. Sensor level air", "c. Kontrol suhu dan waktu", "d. blower", "e. Kontrol waktu"],
         answer: "b. Sensor level air"
@@ -1523,256 +1243,6 @@ const allQuestions = [
         question: "Cahaya tampak adalah salah satu sumber cahaya yang digunakan pada spektrofotometer. Berapakah panjang gelombangnya?",
         options: ["a. 780-3000 nm", "b. 200-280 nm", "c. 380-780 nm", "d. 10-200 nm", "e. 3000-20.000 nm"],
         answer: "c. 380-780 nm"
-    },
-    {
-        question: "Pada ESU terdapat kerusakan yaitu ESU tegangan pada pembangkit frekuensi terlalu tinggi. Diketahui power supply bekerja dengan normal dan kabel tidak ada yang terputus. Dari masalah tersebut, apakah penyebab terjadinya kerusakan pada ESU?",
-        options: ["a. Kerusakan pada generator High Frekuensi.", "b. Terbalik saat pemasangan elektroda.", "c. Kerusakan pada footswitch.", "d. Kesalahan dalam instalasi ESU.", "e. Fuse terputus."],
-        answer: "a. Kerusakan pada generator High Frekuensi."
-    },
-    {
-        question: "Sebagai seorang elektromedis harus mengenal jenis-jenis peralatan kesehatan salah satunya adalah jenis peralatan life support. Di bawah ini termasuk jenis peralatan life support dan alat ini biasanya dipergunakan untuk mengoreksi aktivitas irama jantung, dan alat ini juga bisa digunakan untuk mengirimkan kejutan listrik ke jantung pasien untuk mendapatkan kestabilan detak jantung kembali normal. Apa nama dari alat Life Support tersebut menurut saudara?",
-        options: ["a. Ventilator", "b. Oximeter", "c. Nebulizer", "d. Defibrilator", "e. ECG"],
-        answer: "d. Defibrilator"
-    },
-    {
-        question: "Desain ruang perawatan Intensive Coronary Care Unit (ICCU), terdapat meja atau rak di sebelah tempat tidur pasien yang diperuntukkan bagi bedside monitor. Dalam bedside monitor ada 5 (lima) parameter yang diperiksa. Salah satunya adalah pemeriksaan kadar oksigen di dalam darah. Apa nama pemeriksaan tersebut?",
-        options: ["a. Respirasi", "b. ECG", "c. Suhu", "d. NIBP", "e. Saturasi darah"],
-        answer: "e. Saturasi darah"
-    },
-    {
-        question: "Di suatu puskesmas terdapat sebuah sterilisator kering. Para petugas di puskesmas mengaku jarang menggunakan sterilisator kering tersebut dikarenakan display pada sterilisator tidak mengalami perubahan sama sekali ketika digunakan. Setiap kali digunakan, display suhu selalu menunjukkan suhu yang tetap meskipun heater telah bekerja. Sebagai seorang tenaga teknik elektromedik, apa yang akan Anda lakukan agar Anda dapat menyusun rencana kerja tahunan pemeliharaan alat sterilisator?",
-        options: ["a. Memeriksa tegangan input sterilisator", "b. Mengganti heater sterilisator", "c. Memeriksa sambungan pada display sterilisator", "d. Memeriksa sambungan kabel pada sterilisator", "e. Mengganti sensor suhu sterilisator"],
-        answer: "e. Mengganti sensor suhu sterilisator"
-    },
-    {
-        question: "Sumber cahaya visible light yang umum digunakan pada alat spektrofotometer adalah lampu halogen. Apakah sumber cahaya lain yang bisa digunakan pada alat tersebut?",
-        options: ["a. Sinar gamma", "b. Lampu ultra violet", "c. Sinar X", "d. Lampu Helium", "e. Lampu infra red"],
-        answer: "b. Lampu ultra violet"
-    },
-    {
-        question: "Jenis-jenis elektroda yang bersifat induktif pada peralatan diathermy?",
-        options: ["a. Elektrode transvaginal, linier, konveks", "b. Elektrode aktif, pasif, netral", "c. Elektrode kabel, monode, dan diplode", "d. Elektrode jarum, bola, lingkaran", "e. Elektrode bantalan, elektrode piringan, dan elektrode khusus"],
-        answer: "e. Elektrode bantalan, elektrode piringan, dan elektrode khusus"
-    },
-    {
-        question: "Seorang radiographer melaporkan permasalahan pada alat rontgen di instalasi radiologi yang sedang digunakan untuk pemeriksaan seorang pasien. Menurut petugas, semua parameter eksposi dalam keadaan normal, namun ketika tombol preparation ditekan pada panel tidak terindikasi ready sehingga ekspos tidak dapat dilakukan. Setelah dilakukan pemeriksaan dan dianalisis, terjadi kerusakan rangkaian rotating anoda putar. Apakah langkah awal yang harus dilakukan pada kasus tersebut?",
-        options: ["a. Cek kabel tegangan tinggi", "b. Cek tegangan pada rotor", "c. Cek tegangan pada anoda putar", "d. Cek tegangan pada tabung sinar-x", "e. Cek tegangan pada stator"],
-        answer: "e. Cek tegangan pada stator"
-    },
-    {
-        question: "Pada saat pengoperasian alat autoclave dijumpai kendala bahwa suhu dan tekanan uap air untuk sterilisasi tidak tercapai. Setelah dilakukan pengecekan, terdapat uap air yang keluar dari celah-celah pintu. Apa tindakan awal yang harus dilakukan oleh tenaga elektromedis yang menangani peralatan tersebut?",
-        options: ["a. Mengecek door interlock", "b. Mengecek door gasket", "c. Mengecek pressure gauge", "d. Mengecek kontrol suhu", "e. Mengecek catu daya elemen"],
-        answer: "b. Mengecek door gasket"
-    },
-    {
-        question: "Sebuah rumah sakit meminta teknisi elektromedis untuk menyusun rencana kerja tahunan pemeliharaan alat elektromedik dan mengedukasi operator agar alat terpelihara dengan baik. Sebagai seorang elektromedis, hal apa saja yang perlu disampaikan dalam kegiatan tersebut?",
-        options: ["a. Memberikan pemahaman alat sesuai dengan SOP", "b. Meminta operator untuk menyimpan dan membersihkan", "c. Meminta operator untuk melakukan perawatan berkala", "d. Meminta operator untuk melakukan kalibrasi", "e. Meminta operator untuk merawat sendiri alat yang digunakan"],
-        answer: "a. Memberikan pemahaman alat sesuai dengan SOP"
-    },
-    {
-        question: "Pada saat seorang perawat menggunakan alat SWD, ia mengalami kendala yaitu lampu indikator tidak menyala tetapi intensitas display lampu menyala. Kemudian ia melaporkan hal tersebut kepada teknisi. Bagian apakah yang mengalami kerusakan?",
-        options: ["a. Lampu Indikator", "b. Rangkaian power supply", "c. Kabel elektroda", "d. Tegangan Masuk", "e. Kabel suplai"],
-        answer: "c. Kabel elektroda"
-    },
-    {
-        question: "Instrumen Dental Unit pada suatu layanan kesehatan mengalami kerusakan yaitu tidak dapat mengeluarkan air dan udara serta gabungan keduanya pada hand piece. Apa yang harus dilakukan oleh seorang tenaga elektromedis yang bertugas menangani alat tersebut?",
-        options: ["a. Melakukan pemeriksaan dan perbaikan bagian additional rocker.", "b. Melakukan pemeriksaan dan perbaikan bagian multifunction hand piece.", "c. Melakukan pemeriksaan dan perbaikan bagian intra matrik motor.", "d. Melakukan pemeriksaan dan perbaikan bagian turbin.", "e. Melakukan pemeriksaan dan perbaikan bagian footswitch."],
-        answer: "b. Melakukan pemeriksaan dan perbaikan bagian multifunction hand piece."
-    },
-    {
-        question: "Seorang elektromedis melakukan penggantian komponen transformator filamen pada pesawat rontgen konvensional yang mengalami kerusakan karena terendam air saat banjir. Sebagai bagian dari pesawat rontgen, di manakah letak dari komponen tersebut?",
-        options: ["a. X-ray tube", "b. Pasien table", "c. HTT tank", "d. Control table", "e. Control panel"],
-        answer: "c. HTT tank"
-    },
-    {
-        question: "Instalasi Rehabilitasi Medis di Rumah sakit, memiliki alat terapi SWD (Short Wave Diathermy). Agar alat tersebut selalu dalam performa maksimal saat digunakan maka Anda sebagai seorang teknisi elektromedik diminta untuk menyusun rencana kerja pemeliharaan tahunan alat SWD tersebut. Berikut adalah pemeliharaan alat terapi SWD periode frekuensi 1 bulanan adalah….",
-        options: ["a. Mengecek dan memeriksa fungsi pewaktu dan fungsi intensitas", "b. Mengecek rangkaian HTT", "c. Memeriksa apakah waktu treatment sudah disetting", "d. Mengecek rangkaian osilasi", "e. Mengecek dan membersihkan elektroda"],
-        answer: "a. Mengecek dan memeriksa fungsi pewaktu dan fungsi intensitas"
-    },
-    {
-        question: "Terdapat kebocoran arus pada dental unit setelah dilakukan pengujian kelistrikan menggunakan Electrical Safety Analyzer. Rencanakan tindakan yang akan dilakukan oleh seorang teknisi?",
-        options: ["a. Memperbaiki grounding alat", "b. Mengganti kabel", "c. Mengecek kabel grounding", "d. Membuat grounding baru", "e. Mengecek kabel isolasi"],
-        answer: "c. Mengecek kabel grounding"
-    },
-    {
-        question: "Instrumen yang terdapat pada Dental Unit mengalami kerusakan yaitu tidak dapat mengeluarkan air dan udara. Apa yang harus dilakukan terhadap instrumen tersebut?",
-        options: ["a. Melakukan pemeriksaan dan perbaikan bagian turbin.", "b. Melakukan pemeriksaan dan perbaikan bagian footswitch.", "c. Melakukan pemeriksaan dan perbaikan bagian additional rocker.", "d. Melakukan pemeriksaan dan perbaikan bagian multifunction hand piece.", "e. Melakukan pemeriksaan dan perbaikan bagian intra matrik motor."],
-        answer: "a. Melakukan pemeriksaan dan perbaikan bagian turbin."
-    },
-    {
-        question: "Sebuah alat CTG (Cardio Toco Graphy) sudah digunakan dalam jangka waktu 1 tahun. Pada saat awal menghidupkan alat secara otomatis akan melakukan test print. Pada hasil test print terdapat garis yang terputus-putus. Langkah apa yang harus Anda lakukan untuk menangani kasus tersebut?",
-        options: ["a. Mengganti kertas printer", "b. Membersihkan rol printer", "c. Membersihkan transduser", "d. Membersihkan unit", "e. Mengecek power supply"],
-        answer: "b. Membersihkan rol printer"
-    },
-    {
-        question: "Pada RSUD Sidoarjo sebuah alat ESU yang digunakan untuk pendukung alat operasi. Kami mendapatkan keluhan dari operator bahwa alat tersebut tidak bekerja. Setelah dilakukan pengecekan, jala-jala PLN sudah terhubung dengan baik, tidak ada arus yang bocor. Apa yang menyebabkan alat tersebut tidak dapat bekerja?",
-        options: ["a. Pengatur frekuensi rusak", "b. Generator pada ESU mengalami kerusakan", "c. Elektroda bipolar putus", "d. Switch on/off mengalami kerusakan", "e. Kabel power putus"],
-        answer: "c. Elektroda bipolar putus"
-    },
-    {
-        question: "Seorang elektromedis sedang melakukan pemeliharaan preventif pada sebuah alat rontgen di instalasi radiologi. Dia melakukan pemeriksaan dan pengukuran beberapa parameter, salah satunya pada sistem pembumian (grounding). Berapakah nilai parameter yang diizinkan pada kasus tersebut?",
-        options: ["a. ", "b. ", "c. ", "d. ", "e. "],
-        answer: ""
-    },
-    {
-        question: "Seorang melakukan identifikasi pada sebuah alat rontgen di instalasi radiologi yang telah digunakan selama 5 (lima) tahun dengan total penggunaan 20.000 kali ekspos, sedangkan usia teknis alat tersebut tertera 25.000 kali ekspos. Berapa persenkah usia manfaat alat tersebut?",
-        options: ["a. 2,5", "b. 5", "c. 20", "d. 10", "e. 2"],
-        answer: "c. 20"
-    },
-    {
-        question: "Seorang elektromedis bersama tim pengadaan alat rontgen sedang melakukan analisis pemenuhan peralatan radiologi yang sesuai dengan klasifikasi rumah sakit. Selanjutnya tim tersebut melakukan penilaian kebutuhan peralatan yang melibatkan pihak-pihak yang terkait. Siapa sajakah pihak terkait pada kasus tersebut?",
-        options: ["a. Direktur Rumah Sakit, tenaga teknis dan tenaga administrasi", "b. Direktur Rumah Sakit, Radiolog dan Elektromedis", "c. Radiolog, Radiographer dan Elektromedis", "d. Pengguna, tenaga teknis dan manajemen rumah sakit", "e. Direktur Rumah Sakit, pengguna dan tenaga teknis"],
-        answer: "d. Pengguna, tenaga teknis dan manajemen rumah sakit"
-    },
-    {
-        question: "Seorang elektromedis mendapat tugas pemeliharaan alat fluoroscopy di instalasi radiologi. Dia melakukan kegiatan inspeksi kuratif yang terjadwal rutin setiap tahun. Apa sajakah yang dilakukan pada kegiatan tersebut?",
-        options: ["a. Mengecek sistem pergerakan tube stand.", "b. Mengecek audible dan visual alarm", "c. Mengecek kondisi kabel power", "d. Mengecek akurasi nilai tegangan tabung (KVp).", "e. Mengecek semua kondisi lampu indikator"],
-        answer: "d. Mengecek akurasi nilai tegangan tabung (KVp)."
-    },
-    {
-        question: "ESU (Electro Surgery Unit) mengalirkan arus bolak-balik dengan frekuensi tinggi melalui elektroda ke jaringan tubuh. Sehingga dalam pemeliharaan alat perlu diperhatikan adanya pengaman terhadap luka bakar yang tidak diinginkan. Apa yang tepat dilakukan oleh tenaga elektromedik untuk pemeliharaan alat tersebut?",
-        options: ["a. Melakukan pemeriksaan pada elektroda aktif harus selalu dalam keadaan baik.", "b. Melakukan pemeriksaan bagian fuse.", "c. Melakukan pemeriksaan Patient plate dan jack dalam keadaan baik dan bersih.", "d. Melakukan pemeriksaan bagian pembangkit frekuensi.", "e. Melakukan pemeriksaan tombol dosis arus."],
-        answer: "c. Melakukan pemeriksaan Patient plate dan jack dalam keadaan baik dan bersih."
-    },
-    {
-        question: "Pemeliharaan berkala alat hematology analyzer salah satunya dilakukan pada bagian metering unit. Apakah fungsi dari metering unit tersebut?",
-        options: ["a. Menampilkan hasil jumlah RBC, WBC dan platelet", "b. Memompa darah menuju ke breaker.", "c. Membaca tegangan RBC, WBC dan platelet.", "d. Membedakan tegangan RBC, WBC dan platelet.", "e. Membatasi volume darah yang akan diukur"],
-        answer: "e. Membatasi volume darah yang akan diukur"
-    },
-    {
-        question: "Seorang bidan menanyakan kepada petugas kalibrasi tentang hasil kalibrasi infant incubator di mana tertera suhu matras tinggi, padahal suhu ruangan infant incubator sudah sesuai. Analisa apa yang harus disampaikan oleh petugas kalibrasi?",
-        options: ["a. Menjelaskan bahwa suhu matras tinggi karena faktor usia alat", "b. Menjelaskan bahwa suhu matras tinggi karena suhu ruangan", "c. Menjelaskan bahwa suhu matras tinggi karena heaternya tidak stabil", "d. Menjelaskan bahwa suhu matras tinggi tergantung dari bahan matras", "e. Menjelaskan bahwa suhu matras tinggi karena sirkulasi di matras tidak bagus"],
-        answer: "d. Menjelaskan bahwa suhu matras tinggi tergantung dari bahan matras"
-    },
-    {
-        question: "Seorang Kepala IPSRS mendapat laporan dari seorang dokter tentang permasalahan alat Defibrilator yang sedang digunakan dalam menangani pasiennya dilaporkan rusak. Disampaikan alat tersebut bisa di-charge tetapi alat tidak bisa mengeluarkan energinya saat digunakan shock terapi ke pasien yang ditanganinya. Pada SOP alat Defibrilator terdapat keterangan jika impedance pasien tidak baik akan dapat menyebabkan tidak adanya energi yang keluar pada paddle. Pilihan langkah yang tepat di bawah ini untuk menjawab permasalahan di atas sesuai SOP pengoperasian alat Defibrilator adalah?",
-        options: ["a. Melakukan kalibrasi pada alat", "b. Memasang dan mengkoneksikan paddle pada pasien dengan benar", "c. Mengganti semua rangkaian pada alat", "d. Mengganti kabel power yang baru pada alat", "e. Menginstal ulang program pada alat"],
-        answer: "b. Memasang dan mengkoneksikan paddle pada pasien dengan benar"
-    },
-    {
-        question: "Autoclave sangat dibutuhkan untuk mensterilkan berbagai macam alat. Cara kerja dari autoclave adalah saat tombol ON autoclave ditekan, motor triway valve akan bekerja untuk mengalirkan air dalam tangki menuju chamber. Pada suatu saat user akan menggunakan alat tersebut akan tetapi alat ini tidak dapat dihidupkan ketika tombol power dalam keadaan ON. Sebagai seorang teknisi, apa yang harus dilakukan untuk menyelesaikan masalah tersebut?",
-        options: ["a. Mengganti tombol ON yang ada pada tombol power.", "b. Memeriksa motor triway valve", "c. Melakukan pengecekan pada tegangan yang masuk pada alat dan mengecek tegangan stop kontak yang ada.", "d. Mengganti dengan yang baru kabel yang digunakan untuk menghubungkan pada stop kontak.", "e. Mengganti motor triway valve dengan yang baru"],
-        answer: "c. Melakukan pengecekan pada tegangan yang masuk pada alat dan mengecek tegangan stop kontak yang ada."
-    },
-    {
-        question: "Seorang teknisi yang melakukan perbaikan alat electrosurgery unit setiap 6 bulan sekali menemukan permasalahan pada alat tersebut. Saat teknisi memeriksa bagian high frekuensi outputnya terlalu tinggi, perbaikan atau tindakan apa yang dapat dilakukan pada alat tersebut?",
-        options: ["a. Memeriksa rangkaian osilator sebagai pembangkit frekuensi", "b. Mengganti komponen IC pada power supply", "c. Memeriksa generator high frekuensi", "d. Memeriksa kembali sambungan power supply", "e. Mengganti elektroda aktif dan pasif"],
-        answer: "c. Memeriksa generator high frekuensi"
-    },
-    {
-        question: "Seorang radiografer senior melaporkan kepada teknisi di RS. Ken Arok bahwa dalam kurun waktu sebulan terakhir dia harus menekan tombol ready lebih lama dari biasanya sampai lampu indikator ready menyala. Selain itu, foto rontgen derajat kehitaman foto rontgen yang dihasilkan rendah. Sebagai seorang elektromedis yang harus melakukan analisis kerusakan, bagian apa yang mungkin mengalami kerusakan?",
-        options: ["a. Shutter.", "b. mA meter.", "c. Timer radiografi.", "d. mA regulator.", "e. Lampu indikator ready."],
-        answer: "d. mA regulator."
-    },
-    {
-        question: "Sebuah dental unit yang sudah terpasang digunakan untuk pasien. Saat contra angle dihidupkan ternyata bor tidak berputar. Apa yang perlu diperiksa untuk mengatasi masalah ini?",
-        options: ["a. Periksa tekanan angin", "b. Periksa tekanan air", "c. Periksa lampu sorot", "d. Periksa kondisi oli hidraulic", "e. Periksa hidraulic motor"],
-        answer: "a. Periksa tekanan angin"
-    },
-    {
-        question: "Seorang elektromedis sedang melakukan tugas pokoknya yaitu merawat alat rontgen di instalasi radiologi. Dia melakukan pemeriksaan, pembersihan dan pengukuran secara berkala agar kondisi alat tersebut selalu terjaga dan menghasilkan luaran yang stabil. Jenis kategori pemeliharaan manakah yang dilakukan petugas tersebut?",
-        options: ["a. image quality check", "b. corrective maintenance", "c. preventive maintenance", "d. system upgrade", "e. safety inspections"],
-        answer: "c. preventive maintenance"
-    },
-    {
-        question: "Sebuah alat EKG yang digunakan untuk diagnostik di suatu rumah sakit, pada jarum stylus alat tersebut terlihat gambar/hasil yang tidak sesuai dengan standar. Langkah apa yang dilakukan untuk menangani hal tersebut?",
-        options: ["a. Melakukan pemeriksaan rangkaian display", "b. Melakukan pemeriksaan pemanas stylus.", "c. Melakukan pemeriksaan rangkaian catu daya", "d. Melakukan pemeriksaan rangkaian penguat", "e. Melakukan penggantian jarum stylus dan mereset."],
-        answer: "b. Melakukan pemeriksaan pemanas stylus."
-    },
-    {
-        question: "Seorang radiographer melaporkan permasalahan pada alat rontgen sistem condensator discharges yang sedang digunakan pemeriksaan seorang pasien. Menurut petugas, semua parameter eksposi dalam keadaan normal, namun ekspos tidak dapat dilakukan. Setelah dilakukan pemeriksaan dan dianalisis, ternyata ada kerusakan pada rangkaian yang mensuplai elektrode grid pada tabung sinar-x. Apakah fungsi elektrode pada alat tersebut?",
-        options: ["a. Mengatur laju arus listrik dari katode ke anoda", "b. Mengatur pergerakan elektron dari anoda ke katode", "c. Mengatur laju arus dari katode ke grid", "d. Mengatur emisi elektron pada katode dan anoda", "e. Mengatur pergerakan elektron dari katode ke anoda"],
-        answer: "e. Mengatur pergerakan elektron dari katode ke anoda"
-    },
-    {
-        question: "Seorang perawat di ICU menanyakan kepada petugas kalibrasi tentang hasil kalibrasi infusion pump di mana kesalahan flow rate-nya tinggi, padahal infusion pump-nya tidak pernah rusak. Analisa apa yang harus disampaikan oleh petugas kalibrasi?",
-        options: ["a. Menjelaskan bahwa kesalahan flow rate tinggi karena suhu ruangan yang tidak sesuai", "b. Menjelaskan bahwa kesalahan flow rate tinggi karena pengaruh jenis cairan yang digunakan", "c. Menjelaskan bahwa kesalahan flow rate tinggi karena pengaruh infusion set yang digunakan", "d. Menjelaskan bahwa kesalahan flow rate tinggi karena usia alat", "e. Menjelaskan bahwa kesalahan flow rate tinggi karena pengaruh tinggi cairan infus"],
-        answer: "c. Menjelaskan bahwa kesalahan flow rate tinggi karena pengaruh infusion set yang digunakan"
-    },
-    {
-        question: "Pesawat sinar X pada Poli Radiologi mengalami kerusakan. Ternyata setelah dilakukan pemeriksaan diketahui filamen pada tabung tidak menyala. Apa yang terjadi apabila pesawat sinar X tersebut dilakukan exposure?",
-        options: ["a. Akan terjadi short circuit", "b. Terjadi penambahan penyerapan daya listrik", "c. Menyebabkan kerusakan pada tabung sinar X", "d. Pesawat tidak dapat menghasilkan sinar X", "e. Pesawat tetap dapat menghasilkan sinar X"],
-        answer: "d. Pesawat tidak dapat menghasilkan sinar X"
-    },
-    {
-        question: "Di sebuah rumah sakit, seorang dokter akan mengoperasi pasiennya menggunakan Electrosurgery Unit (ESU) dengan merk ERBE tipe D-72072 / ICC 350 E INT. Namun ketika mulai digunakan, display pada alat tidak menyala dan alat mengeluarkan asap. Tindakan apa yang harus dilakukan?",
-        options: ["a. Mengecek fuse, supply, dan blok rangkaian display", "b. Mengecek modul pembangkit HF", "c. Mengganti elektroda", "d. Mengganti saklar ON/OFF", "e. Mengganti kabel power"],
-        answer: "a. Mengecek fuse, supply, dan blok rangkaian display"
-    },
-    {
-        question: "Pada saat alat analytic balance yang akan digunakan, terdapat seberkas partikel debu atau kotoran-kotoran kecil yang menempel pada sebuah pan (tempat penimbangan sample) dan pelindung kaca alat tersebut. Apa tindakan pemeliharaan yang harus dilakukan oleh tenaga elektromedis dalam kasus ini?",
-        options: ["a. Membersihkannya dengan kain fiber atau kuas dengan cairan basa", "b. Membersihkannya dengan kain fiber atau kuas dengan cairan asam", "c. Membersihkannya dengan kain fiber atau kuas dengan cairan soda", "d. Membersihkannya dengan kain fiber atau kuas dengan cairan alkohol murni", "e. Membersihkannya dengan kain fiber atau kuas dengan cairan kaporit"],
-        answer: "d. Membersihkannya dengan kain fiber atau kuas dengan cairan alkohol murni"
-    },
-    {
-        question: "Rumah sakit mendapatkan alat Anesthesi baru datang hibah dari bantuan WHO dan pihak rumah sakit akan menggunakan alat tersebut di kamar operasi. Apa yang harus dilakukan oleh seorang tenaga elektromedis yang bertugas menangani alat tersebut agar dapat menyusun rencana kerja tahunan pemeliharaan alat elektromedik?",
-        options: ["a. Melakukan pencatatan, pemeriksaan, pemeliharaan dan mengevaluasi kondisi alat.", "b. Melakukan pencatatan, pemeriksaan, pemeliharaan dan mengevaluasi", "c. Melakukan pencatatan dengan data-data yang tertera dalam alat, uji fungsi dan uji coba.", "d. Melakukan pencatatan data alat monitoring, dan pemeliharaan pencatatan alat anesthesi.", "e. Melakukan pencatatan harian, mingguan, bulanan dan tahunan."],
-        answer: "c. Melakukan pencatatan dengan data-data yang tertera dalam alat, uji fungsi dan uji coba."
-    },
-    {
-        question: "Pada pengaturan amplitude test 1 mv, hasil test menunjukkan tidak tercapai 1 mv. Pengaturan apa yang saudara lakukan bila terjadi hal tersebut?",
-        options: ["a. Filter", "b. Gain control", "c. Posisi stylus", "d. Damping", "e. Kecepatan motor"],
-        answer: "b. Gain control"
-    },
-    {
-        question: "Seorang petugas datang ke IPSRS melaporkan kerusakan alat rontgen konvensional di instalasi radiologi. Petugas mengatakan bahwa alat tersebut tidak dapat dioperasikan pada pengaturan 65 kV. Setelah dilakukan pemeriksaan, ternyata pada pengaturan 65 kV indikator pada meter menunjukkan 0 sedangkan pengaturan kV lainnya normal. Apakah tindakan saudara pada kasus tersebut?",
-        options: ["a. Periksa tap kV selektor pada high tension-tank", "b. Periksa tap kV selektor pada autotrafo bagian sekunder", "c. Periksa tap kV selektor pada autotrafo bagian primer", "d. Periksa tap kV selektor pada HTT bagian sekunder", "e. Periksa tap kV selektor pada trafo filamen bagian primer"],
-        answer: "b. Periksa tap kV selektor pada autotrafo bagian sekunder"
-    },
-    {
-        question: "Pesawat sinar X pada Poli Radiologi mengalami kerusakan. Ternyata setelah dilakukan pemeriksaan diketahui filamen pada tabung tidak menyala. Apa yang terjadi apabila pesawat sinar X tersebut dilakukan exposure?",
-        options: ["a. Akan terjadi short circuit", "b. Menyebabkan kerusakan pada tabung sinar X", "c. Pesawat tetap dapat menghasilkan sinar X", "d. Pesawat tidak dapat menghasilkan sinar X", "e. Terjadi penambahan penyerapan daya listrik"],
-        answer: "d. Pesawat tidak dapat menghasilkan sinar X"
-    },
-    {
-        question: "Setiap tabung sinar-x yang digunakan pada alat rontgen memiliki sudut anode tertentu. Menurut informasi pada manual book bahwa sudut anode akan berpengaruh terhadap gambar yang dihasilkan. Bagaimanakah pengaruh sudut anode tersebut terhadap gambar yang dihasilkan?",
-        options: ["a. Sudut semakin kecil focal spot semakin besar", "b. Sudut semakin kecil gambar semakin kurang baik", "c. Sudut semakin besar focal spot semakin mengecil", "d. Sudut semakin kecil gambar semakin membaik", "e. Sudut semakin besar gambar semakin membaik"],
-        answer: "d. Sudut semakin kecil gambar semakin membaik"
-    },
-    {
-        question: "Alat CTG, Doppler dan USG adalah alat diagnostik yang memiliki prinsip dasar yang sama, yaitu memanfaatkan gelombang ultrasound. Bagian mana dari ketiga alat tersebut yang harus sering dibersihkan setelah digunakan pada pasien?",
-        options: ["a. Transducer", "b. Kontrol konsol", "c. Kabel", "d. Layar peraga", "e. Alat perekam"],
-        answer: "a. Transducer"
-    },
-    {
-        question: "Sebuah alat rontgen yang disuplai dengan sumber tegangan 1 phase 220 volt/50 Hz, dioperasikan selama 2 detik pada kondisi tegangan tabung sinar-x sebesar 80 kV dan arus tabung 50 mA. Berapa joule-kah energi yang terbangkit pada tabung sinar x?",
-        options: ["a. 7000", "b. 8000", "c. 7", "d. 0,7", "e. 0,8"],
-        answer: "b. 8000"
-    },
-    {
-        question: "Dokter kandungan atau bidan menggunakan mesin USG dengan berbagai transduser untuk memeriksa janin pada trimester pertama sampai ketiga. Pemeriksaan yang dilakukan pada trimester kedua yakni, kecuali?",
-        options: ["a. Minggu ke-18 sampai ke-20 untuk cacat kongenital", "b. Meyakinkan kematian dalam rahim", "c. Meyakinkan kehamilan kembar", "d. Minggu ke-13 dan ke-14 untuk karakteristik kemungkinan down syndrom", "e. Diagnosa cacat pada janin"],
-        answer: "b. Meyakinkan kematian dalam rahim"
-    },
-    {
-        question: "Sebuah alat ultrasound therapy akan digunakan oleh user, namun setelah dilakukan penyetingan alat, ternyata alat tersebut tidak berfungsi, di mana tidak keluar panas dari transduser tersebut. Bagaimana saudara menangani masalah tersebut?",
-        options: ["a. Mengecek transduser dengan tetesan air", "b. Ganti probe ultrasound dari 1 MHz dengan 3 MHz", "c. Set alat ultrasound pada mode continuous.", "d. Pastikan alat sudah terhubung dengan sumber tegangan listrik", "e. Lakukan pemeriksaan terhadap fuse"],
-        answer: "a. Mengecek transduser dengan tetesan air"
-    },
-    {
-        question: "Hasil rekaman Elektro Encephalograph terganggu oleh interferensi dari tegangan AC maupun gelombang frekuensi radio yang melintas di sekitar ruangan. Berapakah tahanan grounding yang diizinkan?",
-        options: ["a. 25 W", "b. 150 W", "c. 5 W", "d. 100 W", "e. 50 W"],
-        answer: "c. 5 W"
-    },
-    {
-        question: "Pada ESU terdapat kerusakan yaitu ESU tegangan pada pembangkit frekuensi terlalu tinggi. Diketahui power supply bekerja dengan normal dan kabel tidak ada yang terputus. Dari masalah tersebut, apakah penyebab terjadinya kerusakan pada ESU?",
-        options: ["a. Terbalik saat pemasangan elektroda.", "b. Kerusakan pada footswitch.", "c. Fuse terputus.", "d. Kesalahan dalam instalasi ESU.", "e. Kerusakan pada generator High Frekuensi."],
-        answer: "e. Kerusakan pada generator High Frekuensi."
-    },
-    {
-        question: "Untuk meningkatkan pelayanan kesehatan, sebuah rumah sakit akan melengkapi alat dengan peralatan bedside monitor yang baru. Oleh karena itu diperlukan tata cara instalasi yang sesuai supaya bedside monitor dapat bekerja secara efektif. Dari keterangan di atas, merupakan cara instalasi bedside monitor, kecuali?",
-        options: ["a. Pindahkan bedside monitor", "b. Hubungkan alat ke ground", "c. Lepaskan penutup debu pada bedside", "d. Perhatikan protap pelayanan", "e. Hubungkan alat ke catu daya"],
-        answer: "a. Pindahkan bedside monitor"
-    },
-    {
-        question: "Doppler adalah alat medis yang menggunakan gelombang suara berfrekuensi tinggi untuk memantau aliran darah dan kondisi pembuluh darah. Biasanya, Doppler digunakan dokter untuk pemindaian atau mendiagnosis kondisi pasien. Sebutkan bagian-bagian dari alat Doppler?",
-        options: ["a. Transduser, transmiter, rangkaian penyadap", "b. Transduser, settingan volume, speaker, display", "c. Sensor mic, transduser, display, arduino", "d. Transmiter, kabel, power supply", "e. Transduser, display, speaker"],
-        answer: "b. Transduser, settingan volume, speaker, display"
-    },
-    {
-        question: "Setelah melakukan proses pemeliharaan adalah pencatatan. Pencatatan yang perlu dilakukan adalah?",
-        options: ["a. Mencatat pekerjaan alat lain yang akan dilakukan berikutnya.", "b. Mengisi laporan kerja pemeliharaan.", "c. Mengisi Lembar kerja pemeliharaan/workorder.", "d. Meminta tanda tangan pengguna, bukti pekerjaan alat telah dilakukan", "e. Mencatat di kartu pemeliharaan alat."],
-        answer: "a. Mencatat pekerjaan alat lain yang akan dilakukan berikutnya."
     },
     {
         question: "Untuk peningkatan kinerja alat, maka langkah yang dilakukan adalah pemeliharaan alat secara berkala. Sebutkan langkah apa saja untuk pemeliharaan alat Hematology Analyzer?",
@@ -1990,11 +1460,6 @@ const allQuestions = [
         answer: "a. Probe yang kotor"
     },
     {
-        question: "Seorang dosen menerangkan pada mahasiswa cara pengoperasian alat Baby Inkubator yang ditinjau dari aspek pengamanan. Jika terjadi arus bocor, aspek pengamanan apa saja yang perlu dilengkapi?",
-        options: ["a. Memasang kelembaban, kulit dan oksigen.", "b. Memasang sensor udara, suhu dan kelembaban", "c. Memasang sensor udara, kelembaban dan oksigen", "d. Memasang sensor suhu, Kelembaban, dan kulit.", "e. Memasang sensor suhu, oksigen dan kelembaban"],
-        answer: "d. Memasang sensor suhu, Kelembaban, dan kulit."
-    },
-    {
         question: "Bedside Monitor elektronik digunakan untuk mengumpulkan dan menampilkan data fisiologis pasien. Data tersebut dikumpulkan menggunakan sensor non-invasif dari pasien dan merekam data rutin. Berikut ini merupakan keuntungan dari pemakaian bedside monitor, kecuali?",
         options: ["a. Parameternya yang lengkap", "b. Lebih jelas menggambarkan monitoring tubuh, seperti NIPB, spo2, Respiration rate", "c. Digunakan untuk mengevaluasi keadaan tubuh pasien yang dipasang bedside monitor", "d. Sangat menguntungkan untuk memeriksa kelainan pada tubuh pasien", "e. Tidak bisa ditampilkan di dalam monitor"],
         answer: "e. Tidak bisa ditampilkan di dalam monitor"
@@ -2148,11 +1613,6 @@ const allQuestions = [
     question: "ESU adalah suatu alat bedah dengan memanfaatkan arus listrik frekuensi tinggi untuk membelah, membekukan dan mengeringkan kulit. Pada satu peristiwa ESU pada elektroda panas namun tidak dapat digunakan untuk membelah, membekukan dan mengeringkan. Apa yang anda lakukan sebagai teknisi Elektromedis?",
     options: ["a. Mengecek rangkaian kontrol", "b. Mengecek thermofuse", "c. Mengecek rangkaian power supply", "d. Mengecek rangkaian transduser", "e. Mengecek rangkaian osilator"],
     answer: "e. Mengecek rangkaian osilator"
-  },
-  {
-    question: "Sterilisator kering berfungsi untuk mensterilkan alat dengan cara merusak sel mikroorganisme pada suhu antara 160 C - 180 C. Pada sebuah sterilisator kering alat tidak dapat menyala saat akan digunakan, apa yang harus dilakukan oleh seorang teknisi?",
-    options: ["a. Memeriksa circulating fan", "b. Menyambung fuse thermal", "c. Memastikan alat sudah terhubung dengan jala-jala PLN", "d. Memeriksa tegangan pada alat menggunakan multimeter", "e. Mengganti heater"],
-    answer: "b. Menyambung fuse thermal"
   },
   {
     question: "Pemanfaatan alat rontgen di layanan kesehatan harus memenuhi aspek keselamatan, baik keselamatan listrik, mekanik dan utamanya adalah keselamatan radiasi. Apakah tujuan keselamatan radiasi pada pernyataan tersebut?",
@@ -2483,11 +1943,6 @@ const allQuestions = [
     question: "Seorang Dosen menerangkan pada mahasiswa cara pengoperasian alat infant warmer yang dinilai dari aspek pengamanan. Aspek pengamanan apa yang harus dilakukan pada peralatan infant warmer?",
     options: ["a. Memasang rangkaian pengaman dioda", "b. Memasang trafo isolasi.", "c. Memasang sensor suhu", "d. Memasang sensor kelembaban", "e. Memperdalam grounding listrik"],
     answer: "e. Memperdalam grounding listrik"
-},
-{
-    question: "Berikut prosedur pengoperasian alat nebulizer: · Alat Mikro Nebulizer diisi dengan larutan sesuai dengan dosis dan diencerkan dengan ml NaCl 0,9%. · Sambungkan kabel power ke stop kontak. · Hidupkan saklar 'ON' dan cek alat berfungsi atau tidak keluar 'OFF'. · Pasangkan masker nebulizer kepada pasien. · Apabila obat dalam tabung habis, matikan saklar pada posisi 'OFF'. Kekurangan dari prosedur pengoperasian di atas adalah?",
-    options: ["a. Setelah obat habis jangan langsung OFF", "b. Pasang masker harus yang pertama", "c. Kurang item pengemasan setelah penggunaan.", "d. Isi larutan setelah saklar ON.", "e. Hidupkan saklar ON yang pertama harus dilakukan."],
-    answer: "c. Kurang item pengemasan setelah penggunaan."
 },
 {
     question: "Seorang Dosen menerangkan pada mahasiswa cara pengoperasian alat ESU dengan beberapa efek yang dihasilkan oleh arus listrik frekuensi tinggi yang dialirkan ke dalam jaringan biologis. Efek apa saja yang terjadi pada peralatan ESU?",
@@ -2999,51 +2454,51 @@ const allQuestions = [
     options: ["A. Piston", "B. Klep", "C. Motor", "D. Filter", "E. Chamber cairan"],
     answer: "C. Motor"
 },
-// {
-//     question: "Alat paraffin bath memanfaatkan lilin parafin yang dilelehkan sebagai media penghantar panas ke bagian tubuh yang diterapi. Ada beberapa syarat yang harus dipenuhi agar di ruangan penempatan alat ini tidak timbul kebakaran. Salah satunya adalah gas. Gas apa yang tidak boleh ada di ruangan tersebut?",
-//     options: ["A. Karbon dioksida", "B. Oksigen murni", "C. Udara", "D. Uap air", "E. Sulfur"],
-//     answer: "B. Oksigen murni"
-// },
-// {
-//     question: "Alat Elektrosurgery unit saat dioperasikan hidup, namun tidak dapat melakukan Cutting dan Coagulation. Pengecekan bagian apa yang dilakukan elektromedis sehingga alat tersebut berfungsi?",
-//     options: ["A. Foot control", "B. Rangkaian penguatan arus dan tegangan", "C. Kabel elektroda", "D. Tegangan jala-jala PLN", "E. Patient plate"],
-//     answer: "A. Foot control"
-// },
-// {
-//     question: "Sebuah lampu operasi dengan intensitas cahaya 160.000 lux terpasang di langit-langit ruang operasi. Alat tersebut terdiri dari 1 set lampu yang dapat bersuhu 4300 Kelvin. Seorang elektromedis diminta untuk melakukan kegiatan pemeliharaan lampu tersebut. Kegiatan apakah yang seharusnya dihindari saat melakukan pemeliharaan alat tersebut?",
-//     options: ["A. Menggunakan desinfektan semprot", "B. Membersihkan alat dengan kain lembab", "C. Sterilisasi uap pada handpiece", "D. Mengganti handpiece yang retak/rusak", "E. Dilakukan saat lampu sudah dingin"],
-//     answer: "A. Menggunakan desinfektan semprot"
-// },
-// {
-//     question: "Operating Lamp Ceiling Mounted adalah suatu alat yang digunakan untuk menerangi objek pada saat dilakukan operasi (pembedahan). Alat tersebut membutuhkan perawatan supaya alat tersebut selalu dalam keadaan baik berfungsi dan selalu siap pakai. Dokumen pemeliharaan sangat diperlukan agar waktu umur pemakaian termonitor. Apa tujuan kegiatan terhadap alat tersebut?",
-//     options: ["A. Pelayanan pada pasien", "B. Memudahkan untuk pengadaan baru", "C. Mencegah terjadinya permintaan baru", "D. Meminimalisasi atau mencegah terjadinya perpindahan alat", "E. Meminimalisasi atau mencegah terjadinya kerusakan yang fatal"],
-//     answer: "E. Meminimalisasi atau mencegah terjadinya kerusakan yang fatal"
-// },
-// {
-//     question: "Seorang terapis ingin menggunakan alat traksi untuk terapi kepada pasiennya. Terapis meminta bantuan teknisi rumah sakit untuk memasang alat tersebut. Apa yang harus dilakukan seorang teknisi agar alat tersebut terpasang dengan baik?",
-//     options: ["A. Pemberat harus cukup tinggi di atas permukaan lantai", "B. Hubungkan korset dengan pengait", "C. Setting timer untuk menentukan lama proses terapi pada pasien", "D. Bersihkan badan pesawat dari debu", "E. Setting berat badan yang didapat dari berat pasien"],
-//     answer: "A. Pemberat harus cukup tinggi di atas permukaan lantai"
-// },
-// {
-//     question: "Seorang elektromedis mendapat laporan dari user bahwa tensi digital yang sedang digunakan tidak mau berhenti memompa saat melakukan pemeriksaan. Kemudian dilakukan pengecekan untuk hal tersebut. Mengganti bagian apakah yang harus dilakukan pada kasus tersebut?",
-//     options: ["A. Selang tensi meter", "B. Air raksa", "C. Bulb", "D. Manset", "E. Sekring"],
-//     answer: "C. Bulb"
-// },
-// {
-//     question: "Seorang laboran akan menggunakan alat centrifuge. Pada saat alat digunakan ternyata alat tersebut tidak dapat memutar seperti biasa. Setelah dicek ternyata pengaman pada tutup alat centrifuge mengalami kerusakan. Apa yang harus dilakukan pada alat tersebut?",
-//     options: ["A. Mengecek tegangan motor", "B. Mengganti sensor kecepatan", "C. Mengganti fuse", "D. Mengganti switch", "E. Melakukan pembersihan"],
-//     answer: "D. Mengganti switch"
-// },
-// {
-//     question: "Sebuah alat spektrofotometer digunakan untuk mengetahui kandungan zat yang terdapat pada sebuah larutan atau darah. Dengan cara apakah alat tersebut bekerja sehingga menghasilkan nilai dari zat yang akan diketahui?",
-//     options: ["A. Mengaduk cairan sampel", "B. Memanaskan cairan sampel", "C. Mencairkan menggunakan air", "D. Mengukur banyaknya cairan sampel", "E. Mengukur kepekatan suatu larutan sampel"],
-//     answer: "E. Mengukur kepekatan suatu larutan sampel"
-// },
-// {
-//     question: "Di rumah sakit terdapat alat doppler. Alat tersebut juga sering digunakan pada pelayanan kesehatan baik di puskesmas maupun rumah sakit. Karena alat ini dapat mendengarkan detak jantung janin ketika masih berada dalam kandungan. Pada bidang pelayanan apakah alat tersebut digunakan?",
-//     options: ["A. Obgyn", "B. THT", "C. Bedah", "D. Saraf", "E. Fisioterapi"],
-//     answer: "A. Obgyn"
-// },
+{
+    question: "Alat paraffin bath memanfaatkan lilin parafin yang dilelehkan sebagai media penghantar panas ke bagian tubuh yang diterapi. Ada beberapa syarat yang harus dipenuhi agar di ruangan penempatan alat ini tidak timbul kebakaran. Salah satunya adalah gas. Gas apa yang tidak boleh ada di ruangan tersebut?",
+    options: ["A. Karbon dioksida", "B. Oksigen murni", "C. Udara", "D. Uap air", "E. Sulfur"],
+    answer: "B. Oksigen murni"
+},
+{
+    question: "Alat Elektrosurgery unit saat dioperasikan hidup, namun tidak dapat melakukan Cutting dan Coagulation. Pengecekan bagian apa yang dilakukan elektromedis sehingga alat tersebut berfungsi?",
+    options: ["A. Foot control", "B. Rangkaian penguatan arus dan tegangan", "C. Kabel elektroda", "D. Tegangan jala-jala PLN", "E. Patient plate"],
+    answer: "A. Foot control"
+},
+{
+    question: "Sebuah lampu operasi dengan intensitas cahaya 160.000 lux terpasang di langit-langit ruang operasi. Alat tersebut terdiri dari 1 set lampu yang dapat bersuhu 4300 Kelvin. Seorang elektromedis diminta untuk melakukan kegiatan pemeliharaan lampu tersebut. Kegiatan apakah yang seharusnya dihindari saat melakukan pemeliharaan alat tersebut?",
+    options: ["A. Menggunakan desinfektan semprot", "B. Membersihkan alat dengan kain lembab", "C. Sterilisasi uap pada handpiece", "D. Mengganti handpiece yang retak/rusak", "E. Dilakukan saat lampu sudah dingin"],
+    answer: "A. Menggunakan desinfektan semprot"
+},
+{
+    question: "Operating Lamp Ceiling Mounted adalah suatu alat yang digunakan untuk menerangi objek pada saat dilakukan operasi (pembedahan). Alat tersebut membutuhkan perawatan supaya alat tersebut selalu dalam keadaan baik berfungsi dan selalu siap pakai. Dokumen pemeliharaan sangat diperlukan agar waktu umur pemakaian termonitor. Apa tujuan kegiatan terhadap alat tersebut?",
+    options: ["A. Pelayanan pada pasien", "B. Memudahkan untuk pengadaan baru", "C. Mencegah terjadinya permintaan baru", "D. Meminimalisasi atau mencegah terjadinya perpindahan alat", "E. Meminimalisasi atau mencegah terjadinya kerusakan yang fatal"],
+    answer: "E. Meminimalisasi atau mencegah terjadinya kerusakan yang fatal"
+},
+{
+    question: "Seorang terapis ingin menggunakan alat traksi untuk terapi kepada pasiennya. Terapis meminta bantuan teknisi rumah sakit untuk memasang alat tersebut. Apa yang harus dilakukan seorang teknisi agar alat tersebut terpasang dengan baik?",
+    options: ["A. Pemberat harus cukup tinggi di atas permukaan lantai", "B. Hubungkan korset dengan pengait", "C. Setting timer untuk menentukan lama proses terapi pada pasien", "D. Bersihkan badan pesawat dari debu", "E. Setting berat badan yang didapat dari berat pasien"],
+    answer: "A. Pemberat harus cukup tinggi di atas permukaan lantai"
+},
+{
+    question: "Seorang elektromedis mendapat laporan dari user bahwa tensi digital yang sedang digunakan tidak mau berhenti memompa saat melakukan pemeriksaan. Kemudian dilakukan pengecekan untuk hal tersebut. Mengganti bagian apakah yang harus dilakukan pada kasus tersebut?",
+    options: ["A. Selang tensi meter", "B. Air raksa", "C. Bulb", "D. Manset", "E. Sekring"],
+    answer: "C. Bulb"
+},
+{
+    question: "Seorang laboran akan menggunakan alat centrifuge. Pada saat alat digunakan ternyata alat tersebut tidak dapat memutar seperti biasa. Setelah dicek ternyata pengaman pada tutup alat centrifuge mengalami kerusakan. Apa yang harus dilakukan pada alat tersebut?",
+    options: ["A. Mengecek tegangan motor", "B. Mengganti sensor kecepatan", "C. Mengganti fuse", "D. Mengganti switch", "E. Melakukan pembersihan"],
+    answer: "D. Mengganti switch"
+},
+{
+    question: "Sebuah alat spektrofotometer digunakan untuk mengetahui kandungan zat yang terdapat pada sebuah larutan atau darah. Dengan cara apakah alat tersebut bekerja sehingga menghasilkan nilai dari zat yang akan diketahui?",
+    options: ["A. Mengaduk cairan sampel", "B. Memanaskan cairan sampel", "C. Mencairkan menggunakan air", "D. Mengukur banyaknya cairan sampel", "E. Mengukur kepekatan suatu larutan sampel"],
+    answer: "E. Mengukur kepekatan suatu larutan sampel"
+},
+{
+    question: "Di rumah sakit terdapat alat doppler. Alat tersebut juga sering digunakan pada pelayanan kesehatan baik di puskesmas maupun rumah sakit. Karena alat ini dapat mendengarkan detak jantung janin ketika masih berada dalam kandungan. Pada bidang pelayanan apakah alat tersebut digunakan?",
+    options: ["A. Obgyn", "B. THT", "C. Bedah", "D. Saraf", "E. Fisioterapi"],
+    answer: "A. Obgyn"
+},
 // {
 //     question: "Sebuah alat defibrillator saat bekerja terkadang mengalami kendala dengan tidak dapat dilakukan pengisian charger. Apa analisa awal kerusakannya?",
 //     options: ["A. Tombol charger rusak; kapasitor rusak; rangkaian charger rusak", "B. Alat dalam kondisi di luar mode kalibrasi", "C. Rangkaian deteksi tidak berjalan", "D. Rangkaian sinkron/asinkron tidak bekerja", "E. Sekring putus"],
@@ -3465,3 +2920,4 @@ const allQuestions = [
 //     answer: "C. Mengkalibrasi alat tersebut"
 // }
    ];
+   
