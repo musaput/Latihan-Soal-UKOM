@@ -10,11 +10,6 @@ const allQuestions = [
            answer: "B. Roller pada APF rusak."
        },
        {
-           question: "Selain di ICU bedside monitor atau patient monitor juga bisa digunakan di kamar operasi dengan parameter yang lebih komplit dari ruangan ICU. Selain ada 4 parameter utama, akan ada parameter lainnya yaitu tCo2. Apakah makna dari pengukuran tCo2 pada bedside monitor?",
-           options: ["A. Kadar karbondioksida dalam pembuluh darah vena pasien", "B. Kadar karbondioksida dalam pembuluh darah aorta pasien", "C. Kadar karbondioksida dan sistem pernapasan pasien", "D. Kadar karbondioksida dalam paru-paru pasien", "E. Kadar karbondioksida jantung pasien."],
-           answer: "C. Kadar karbondioksida dan sistem pernapasan pasien"
-       },
-       {
            question: "Salah satu alat yang harus ada di ruangan ICU adalah bedside monitor atau patient monitor yang digunakan untuk memantau kondisi pasien. Salah satu parameter alat yaitu respirasi dan 4 parameter pengukuran. Apakah makna dari pengukuran parameter tersebut?",
            options: ["A. Pemeriksaan kesadaran pasien", "B. Pemeriksaan tekanan darah pasien", "C. Pengukuran gula dalam darah pasien", "D. Pemeriksaan irama napas pasien dalam satu menit", "E. Pemeriksaan kadar oksigen yang ada dalam pasien."],
            answer: "D. Pemeriksaan irama napas pasien dalam satu menit"
@@ -30,11 +25,6 @@ const allQuestions = [
            answer: "C. Repolarisasi Ventrikel"
        },
        {
-           question: "Fungsi utama dari EKG adalah mencatat elektrisitas jantung melalui pemasangan elektroda-elektroda tertentu pada permukaan kulit, hasil rekaman pada kertas grafik berupa sinyal PQRST merupakan representasi dari tiga jenis sadapan utama dari alat tersebut yang digunakan sebagai salah satu acuan bagi dokter dalam menganamnesa suatu penyakit. Pada sadapan aVL bagian tubuh manakah yang diukur untuk mendapatkan beda potensial listrik yang akan direkam oleh EKG?",
-           options: ["A. Lengan kanan (RA) yang bermuatan positif (+) dan elektroda negatif (-) Gabungan lengan kiri dan kaki kiri)", "B. Lengan Kiri (LA) yang bermuatan positif (+) dan elektroda negatif (-) Gabungan lengan kanan dan kaki kiri) X", "C. Lengan Kanan (RA) yang bermuatan positif (+) dan elektroda negatif (-) Gabungan lengan kiri dan kaki kanan)", "D. Lengan Kiri (LA) yang bermuatan positif (+) dan elektroda negatif (-) Gabungan lengan kiri dan kaki kiri)", "E. Kaki Kanan (RL) yang bermuatan positif (+) dan elektroda negatif (-) Gabungan lengan kanan dan lengan kiri)"],
-           answer: "C. Lengan Kanan (RA) yang bermuatan positif (+) dan elektroda negatif (-) Gabungan lengan kiri dan kaki kanan)"
-       },
-       {
            question: "Fungsi utama dari EKG adalah mencatat elektrisitas jantung melalui pemasangan elektroda-elektroda tertentu pada permukaan kulit, hasil rekaman pada kertas grafik berupa sinyal PQRST merupakan representasi dari tiga jenis sadapan utama dari alat tersebut yang digunakan sebagai salah satu acuan bagi dokter dalam menganamnesa suatu penyakit. Apakah yang direkam oleh alat EKG pada Lead III?",
            options: ["A. Lengan kanan (RA) yang bermuatan negatif (-) dengan lengan kiri (LA) yang bermuatan positif (+) (LEAD 1)", "B. Lengan kanan (RA) yang bermuatan negatif (-) dengan kaki kiri (LL) yang bermuatan positif (+)", "C. Lengan kiri (LA) yang bermuatan negatif (-) dengan kaki kiri (LL) yang bermuatan positif (+)", "D. Kaki kanan (RA) yang bermuatan negatif (-) dengan lengan kiri (LA) yang bermuatan positif (+)", "E. Kaki kiri (LL) yang bermuatan negatif (-) dengan kaki kanan (RL) yang bermuatan positif (+)"],
            answer: "C. Lengan kiri (LA) yang bermuatan negatif (-) dengan kaki kiri (LL) yang bermuatan positif (+)"
@@ -43,11 +33,6 @@ const allQuestions = [
            question: "Fungsi utama dari EKG adalah mencatat elektrisitas jantung melalui pemasangan elektroda-elektroda tertentu pada permukaan kulit, hasil rekaman pada kertas grafik berupa sinyal PQRST merupakan representasi dari tiga jenis sadapan utama dari alat tersebut yang digunakan sebagai salah satu acuan bagi dokter dalam menganamnesa suatu penyakit. Apakah nama lain dari kertas grafik yang digunakan untuk menggambarkan sinyal jantung alat tersebut?",
            options: ["A. Diagram", "B. Kardiologi", "C. Teleterapi", "D. Elektrokardiograf", "E. Elektrokardiogram"],
            answer: "E. Elektrokardiogram"
-       },
-       {
-           question: "Pada pengoperasian alat radiologi konvensional mempunyai tiga tahapan utama yaitu preparation, ready dan expose. Ketiga tahapan ini harus dilakukan secara seksama agar pelaksanaan penyinaran dapat berjalan sesuai dengan prosedur yang telah ditetapkan. Apakah tujuan utama dari pengaturan Line Voltage Regulator (LVR) pada alat radiologi tersebut?",
-           options: ["A. Mendapatkan tegangan yang sesuai dengan kebutuhan pesawat", "B. Menentukan lamanya penyinaran", "C. Mengaktifkan lampu charge", "D. Mengaktifkan kV meter."],
-           answer: "A. Mendapatkan tegangan yang sesuai dengan kebutuhan pesawat"
        },
        {
            question: "Micro Wave Diathermy adalah alat terapi yang memanfaatkan energi elektromagnetik yang dihasilkan oleh arus bolak balik dengan frekuensi 2450 Hz dengan panjang gelombang 12,25 cm. Hal ini akan menimbulkan efek fisiologis dan efek terapeutik terhadap tubuh manusia. Apakah efek terapeutik yang akan ditimbulkan pada tubuh manusia?",
@@ -2499,21 +2484,21 @@ const allQuestions = [
     options: ["A. Obgyn", "B. THT", "C. Bedah", "D. Saraf", "E. Fisioterapi"],
     answer: "A. Obgyn"
 },
-// {
-//     question: "Sebuah alat defibrillator saat bekerja terkadang mengalami kendala dengan tidak dapat dilakukan pengisian charger. Apa analisa awal kerusakannya?",
-//     options: ["A. Tombol charger rusak; kapasitor rusak; rangkaian charger rusak", "B. Alat dalam kondisi di luar mode kalibrasi", "C. Rangkaian deteksi tidak berjalan", "D. Rangkaian sinkron/asinkron tidak bekerja", "E. Sekring putus"],
-//     answer: "A. Tombol charger rusak; kapasitor rusak; rangkaian charger rusak"
-// },
-// {
-//     question: "Seorang dokter melakukan pemeriksaan pasien dengan menggunakan USG. Pada saat pengoperasian timbul permasalahan yaitu monitor dari USG tersebut tidak menunjukkan warna pada hasil gambar. Apakah yang harus dicek oleh teknisi pada kasus tersebut?",
-//     options: ["A. Kabel power pada alat tersebut", "B. Kabel DVI", "C. Indikator pada alat tersebut", "D. Printer dari alat tersebut", "E. Sumber PLN"],
-//     answer: "B. Kabel DVI"
-// },
-// {
-//     question: "Seorang bayi lahir prematur di IGD RS dengan usia kehamilan 33 minggu dengan berat badan 1900 gr. Bayi tersebut berjenis kelamin laki-laki memiliki kulit yang tipis dan jaringan lemak sedikit. Alat bantu apakah yang digunakan untuk mempertahankan kondisi lingkungan sesuai kasus di atas?",
-//     options: ["A. Infant warmer", "B. NICU", "C. Pediatric", "D. UV Lamp", "E. Baby Incubator"],
-//     answer: "A. Infant warmer"
-// },
+{
+    question: "Sebuah alat defibrillator saat bekerja terkadang mengalami kendala dengan tidak dapat dilakukan pengisian charger. Apa analisa awal kerusakannya?",
+    options: ["A. Tombol charger rusak; kapasitor rusak; rangkaian charger rusak", "B. Alat dalam kondisi di luar mode kalibrasi", "C. Rangkaian deteksi tidak berjalan", "D. Rangkaian sinkron/asinkron tidak bekerja", "E. Sekring putus"],
+    answer: "A. Tombol charger rusak; kapasitor rusak; rangkaian charger rusak"
+},
+{
+    question: "Seorang dokter melakukan pemeriksaan pasien dengan menggunakan USG. Pada saat pengoperasian timbul permasalahan yaitu monitor dari USG tersebut tidak menunjukkan warna pada hasil gambar. Apakah yang harus dicek oleh teknisi pada kasus tersebut?",
+    options: ["A. Kabel power pada alat tersebut", "B. Kabel DVI", "C. Indikator pada alat tersebut", "D. Printer dari alat tersebut", "E. Sumber PLN"],
+    answer: "B. Kabel DVI"
+},
+{
+    question: "Seorang bayi lahir prematur di IGD RS dengan usia kehamilan 33 minggu dengan berat badan 1900 gr. Bayi tersebut berjenis kelamin laki-laki memiliki kulit yang tipis dan jaringan lemak sedikit. Alat bantu apakah yang digunakan untuk mempertahankan kondisi lingkungan sesuai kasus di atas?",
+    options: ["A. Infant warmer", "B. NICU", "C. Pediatric", "D. UV Lamp", "E. Baby Incubator"],
+    answer: "A. Infant warmer"
+}
 // {
 //     question: "Seorang perawat gigi melaporkan bahwa Dental Unit di Poliklinik Gigi sering dilaporkan kerusakan di bagian kursi pasien, sehingga user kesulitan dalam melakukan pemeriksaan. Pemeriksaan apakah yang dilakukan elektromedis untuk kondisi tersebut?",
 //     options: ["A. Supply listrik di Poli Gigi", "B. Berat badan pasien", "C. Sistem hidrolik", "D. Foot switch", "E. Supply air di Poli Gigi"],
