@@ -500,16 +500,6 @@ const allQuestions = [
   answer: "E. Mereset masa pakai dan mengganti lampu UV"
 },
 {
-  question: "Seorang fisioterapis melaporkan alat ultrasonic therapy tidak mengeluarkan output. Apa langkah pertama tenaga elektromedis?",
-  options: ["A. Memeriksa sekring", "B. Mengganti transduser", "C. Memeriksa transduser", "D. Memeriksa power supply", "E. Memeriksa rangkaian penguat"],
-  answer: "B. Mengganti transduser"
-},
-{
-  question: "Perawat melaporkan bahwa output kabut pada ultrasonic nebulizer tidak sesuai. Apa langkah pertama tenaga elektromedis?",
-  options: ["A. Memeriksa kristal", "B. Memeriksa fuse", "C. Memeriksa kabel power", "D. Memeriksa rangkaian power supply", "E. Memeriksa rangkaian pengatur blower"],
-  answer: "E. Memeriksa rangkaian pengatur blower"
-},
-{
   question: "Rumah sakit menerima hibah alat anestesi dari WHO yang akan digunakan di kamar operasi. Apa tindakan yang harus dilakukan oleh tenaga elektromedis?",
   options: ["A. Melakukan pencatatan harian, mingguan, bulanan, dan tahunan", "B. Melakukan pencatatan, pemeriksaan, pemeliharaan dan evaluasi", "C. Melakukan pencatatan, pemeriksaan, pemeliharaan, dan evaluasi alat", "D. Mencatat data alat, uji fungsi dan uji coba", "E. Mencatat dan memonitor serta memelihara alat anestesi"],
   answer: "D. Mencatat data alat, uji fungsi dan uji coba"
@@ -518,11 +508,6 @@ const allQuestions = [
             question: "Seorang elektromedis mengoperasikan alat rontgen dengan nilai parameter exposure sebesar 60 kVp, 100 mA, dan 0,1 detik. Alat rontgen yang dioperasikan menggunakan sumber daya satu fase. Berapa konsumsi energi yang digunakan pada pesawat rontgen tersebut?",
             options: ["A. 6 joule", "B. 60 joule", "C. 0,6 joule", "D. 600 joule", "E. 6000 joule"],
             answer: "D. 600 joule"
-        },
-        {
-            question: "Hasil uji kalibrasi alat phototerapi secara kualitas... Bagian manakah yang harus diganti / diperbaiki dari alat tersebut?",
-            options: ["A. Timer", "B. Heater", "C. Pump / fan", "D. Battery charger", "E. Control / Switches"],
-            answer: "D. Battery charger"
         },
         {
             question: "Petugas laboratorium melaporkan bahwa terdapat permasalahan alat centrifuge di lab sentral yaitu getaran alat terlalu kencang. Setelah dilakukan pengukuran oleh tenaga elektromedis menggunakan alat ukur, hasilnya sesuai atau kesalahannya nol, penempatan sampel tidak beraturan. Analisa kerusakan apa yang ada pada permasalahan tersebut?",
@@ -805,11 +790,6 @@ const allQuestions = [
         answer: "b. 1,99 amper"
     },
     {
-        question: "Seorang tenaga elektromedis akan melakukan pemantauan fungsi alat Infusion Pump yang sesuai dengan standar pengukuran dan kalibrasi. Peralatan apa saja yang dipersiapkan untuk kegiatan tersebut?",
-        options: ["a. Peralatan Tool kit, AVO meter, pengukur kebocoran infus.", "b. Peralatan AVO meter, Tool kit, Leaked current meter dan cairan habis.", "c. Peralatan pemantau cairan habis, gelembung udara, dan AVO meter", "d. Peralatan Tool Kit, pemantau cairan habis, Mul meter dan thermohygrometer.", "e. Peralatan Mul meter, Tool Kit, Leaked current dan thermohygrometer"],
-        answer: "e. Peralatan Mul meter, Tool Kit, Leaked current dan thermohygrometer"
-    },
-    {
         question: "Seorang perawat melaporkan kepada Instalasi Pemeliharaan Sarana Rumah Sakit tentang alat Sphygmomanometer yang jarang dipantau fungsinya, sehingga dia merasa takut menggunakan alat tersebut. Apa yang dilakukan oleh tenaga elektromedis dalam kasus tersebut?",
         options: ["a. Kebocoran slang dan air raksa", "b. Kebocoran slang dan akurasi penunjukkan", "c. Kebocoran air raksa dan tekanan", "d. Kebocoran air raksa dan akurasi penunjukkan", "e. Kebocoran tekanan dan akurasi penunjukkan"],
         answer: "e. Kebocoran tekanan dan akurasi penunjukkan"
@@ -1060,11 +1040,6 @@ const allQuestions = [
         answer: "a. Tegangan yang putus atau kesalahan listrik"
     },
     {
-        question: "Rumah sakit Soedono Kota Madiun memiliki alat sterilisator basah, yaitu alat autoclave. Alat tersebut mengalami kerusakan atau terdapat masalah pada saat dioperasikan. Masalah yang terdapat pada alat tersebut yaitu alat tidak dapat panas dan tidak bertekanan tinggi atau dapat dikatakan alat tidak dapat bekerja. Apa yang harus dilakukan oleh seorang teknisi elektromedik dalam perbaikan alat tersebut?",
-        options: ["a. Chamber berkerak atau terjadi kebocoran", "b. Fuse rusak", "c. Termostat rusak", "d. Kurangnya air yang ada di dalam tabung autoclave", "e. Butuh restart ulang pada alat autoclave"],
-        answer: "b. Fuse rusak"
-    },
-    {
         question: "Pada pesawat rontgen dijumpai kendala berupa tidak munculnya bayangan laten pada film saat dilakukan exposure. Pengecekan yang dilakukan oleh elektromedis didapati bahwa trafo filamen bekerja normal. Push button ready dan exposure juga bekerja normal. Apa tindakan yang harus dilakukan oleh tenaga elektromedis yang menangani kendala tersebut?",
         options: ["a. Mengecek trafo tegangan tinggi", "b. Mengecek line voltage compensator", "c. Mengecek auto trafo", "d. Mengecek stabilisator", "e. Mengecek space charge compensator"],
         answer: "a. Mengecek trafo tegangan tinggi"
@@ -1118,11 +1093,6 @@ const allQuestions = [
         question: "Salah satu bagian pemeliharaan preventif adalah pemantauan, dengan pemantauan diharapkan peralatan medik dalam kondisi siap pakai. Untuk menyusun SOP pemeliharaan preventif, kita harus mengetahui hal-hal. Yang tidak termasuk dalam pemantauan adalah",
         options: ["a. Pemantauan kinerja alat.", "b. Pemantauan fisik alat.", "c. Pemantauan kondisi lingkungan.", "d. Pemantauan pengguna alat", "e. Pemantauan/pengukuran aspek pengukuran."],
         answer: "d. Pemantauan pengguna alat"
-    },
-    {
-        question: "Pada ruang ICU di rumah sakit tipe A terdapat kerusakan pada mesin Ventilator. Setelah dilakukan pemeriksaan oleh elektromedis, terjadi kerusakan pada control unitnya namun setelah menghubungi distributor alat tersebut, spare part yang dibutuhkan sudah tidak diproduksi lagi. Sementara banyak pasien yang memerlukan bantuan pernapasan dengan menggunakan ventilator. Langkah pertama apa yang akan dilakukan oleh elektromedis untuk menangani permasalahan tersebut?",
-        options: ["a. Menyarankan pada manajemen untuk pengadaan ventilator baru", "b. Memberikan saran kepada pihak manajemen agar tidak membeli ventilator dari distributor tersebut", "c. Membuat catatan kronologis kerusakan", "d. Melakukan pemeriksaan pada ventilator yang lain untuk mencegah kerusakan yang sama", "e. Memberikan penjelasan kepada manajemen tentang kondisi purna jual spare part"],
-        answer: "e. Memberikan penjelasan kepada manajemen tentang kondisi purna jual spare part"
     },
     {
         question: "Ruang operasi membutuhkan beberapa peralatan yang spesifik. Oleh karena itu pada saat perencanaan kamar operasi dibutuhkan informasi teknis dari elektromedis agar peralatan yang dipilih sesuai dengan kebutuhan dan fungsinya. Pilihlah paket peralatan kesehatan di bawah ini yang diperlukan untuk perencanaan kebutuhan peralatan untuk ruang operasi",
@@ -1815,11 +1785,6 @@ const allQuestions = [
     answer: "e. Membaca terlebih dahulu SOP dari pabrik kemudian melakukan uji kinerja alat"
 },
 {
-    question: "Seorang tenaga elektromedis akan melakukan pemantauan fungsi alat Infusion Pump yang sesuai dengan standar pengukuran dan kalibrasi. Peralatan apa saja yang dipersiapkan untuk kegiatan tersebut?",
-    options: ["a. Peralatan AVO meter, Tool kit, Leaked current meter dan cairan habis.", "b. Peralatan Multimeter, Tool Kit, Leaked current dan thermohygrometer", "c. Peralatan Tool kit, AVO meter, Pengukur kebocoran infus.", "d. Peralatan Tool Kit, pemantau cairan habis, Multimeter dan thermohygrometer.", "e. Peralatan pemantau cairan habis, gelembung udara, dan AVO meter"],
-    answer: "b. Peralatan Multimeter, Tool Kit, Leaked current dan thermohygrometer"
-},
-{
     question: "RS Sumber Waras sedang melakukan pengadaan alat medis, salah satunya yakni mesin Doppler untuk memenuhi kebutuhan riset rumah sakit bersalin. Apa fungsi dari alat Doppler?",
     options: ["a. Alat yang digunakan untuk mendeteksi denyut jantung bayi yang menggunakan prinsip pantulan gelombang elektromagnetik", "b. Alat untuk terapi otot.", "c. Alat yang digunakan untuk penyembuhan penyakit asma", "d. Alat yang digunakan untuk terapi stroke", "e. Alat untuk mengukur tekanan darah"],
     answer: "a. Alat yang digunakan untuk mendeteksi denyut jantung bayi yang menggunakan prinsip pantulan gelombang elektromagnetik"
@@ -1903,11 +1868,6 @@ const allQuestions = [
     question: "Seorang perawat melaporkan kepada Bagian Instalasi Pemeliharaan Sarana Rumah Sakit bahwa alat phototherapy sudah tercatat pemakaiannya di display hourmeter sebanyak 1100 jam. Apa yang tepat dilakukan oleh tenaga elektromedis untuk hal tersebut?",
     options: ["a. Melakukan pemeriksaan catu daya listrik pada lampu dengan mengukur tegangan dan arus yang mengalir pada lampu.", "b. Melakukan pemeriksaan pada rangkaian hourmeter dan mereset agar display menunjukkan angka nol.", "c. Melakukan pengukuran tegangan dan arus yang mengalir pada lampu dan mereset agar display pada hourmeter menunjukkan angka nol", "d. Melakukan penggantian lampu dan mereset agar display pada hourmeter menunjukkan angka nol.", "e. Melakukan penggantian lampu dan mencatat penggunaan lampu baru pada posisi awal 1100 jam pada kartu pemeliharaan preventif."],
     answer: "e. Melakukan penggantian lampu dan mencatat penggunaan lampu baru pada posisi awal 1100 jam pada kartu pemeliharaan preventif."
-},
-{
-    question: "Rumah sakit Soedono Kota Madiun memiliki alat sterilisator basah, yaitu alat autoclave. Alat tersebut mengalami kerusakan atau terdapat masalah pada saat dioperasikan. Masalah yang terdapat pada alat tersebut yaitu alat tidak dapat panas dan tidak bertekanan tinggi atau dapat dikatakan alat tidak dapat bekerja. Apa yang harus dilakukan oleh seorang teknisi elektromedik dalam perbaikan alat tersebut?",
-    options: ["a. Fuse rusak", "b. Termostat rusak", "c. Butuh restart ulang pada alat autoclave", "d. Chamber berkerak atau terjadi kebocoran", "e. Kurangnya air yang ada di dalam tabung autoclave"],
-    answer: "a. Fuse rusak"
 },
 {
     question: "Beberapa perusahaan menawarkan peralatan suction pump pada sebuah rumah sakit dan melibatkan seorang elektromedis. Sebagai seorang elektromedis, pertimbangan awal yang perlu diperhatikan adalah",
@@ -2498,47 +2458,47 @@ const allQuestions = [
     question: "Seorang bayi lahir prematur di IGD RS dengan usia kehamilan 33 minggu dengan berat badan 1900 gr. Bayi tersebut berjenis kelamin laki-laki memiliki kulit yang tipis dan jaringan lemak sedikit. Alat bantu apakah yang digunakan untuk mempertahankan kondisi lingkungan sesuai kasus di atas?",
     options: ["A. Infant warmer", "B. NICU", "C. Pediatric", "D. UV Lamp", "E. Baby Incubator"],
     answer: "A. Infant warmer"
+},
+{
+    question: "Seorang perawat gigi melaporkan bahwa Dental Unit di Poliklinik Gigi sering dilaporkan kerusakan di bagian kursi pasien, sehingga user kesulitan dalam melakukan pemeriksaan. Pemeriksaan apakah yang dilakukan elektromedis untuk kondisi tersebut?",
+    options: ["A. Supply listrik di Poli Gigi", "B. Berat badan pasien", "C. Sistem hidrolik", "D. Foot switch", "E. Supply air di Poli Gigi"],
+    answer: "C. Sistem hidrolik"
+},
+{
+    question: "Sebuah Rumah Sakit baru membeli sebuah alat Baby Incubator melalui proses sesuai prosedur yang berlaku dengan masa garansi 1 tahun. Pada saat usia alat 3 bulan, alat tersebut mengalami error pada pembacaan suhunya. Apakah langkah yang diambil oleh elektromedis untuk menangani alat tersebut?",
+    options: ["A. Menelepon perusahaan rekanan lain", "B. Menyalahkan user karena terjadi error", "C. Mengembalikan alat ke perusahaan", "D. Melakukan perbaikan semampunya", "E. Melaporkan keagenan karena masih garansi"],
+    answer: "E. Melaporkan keagenan karena masih garansi"
+},
+{
+    question: "Sebagai seorang elektromedis, Anda harus menyampaikan kepada user bahwa peralatan elektromedis harus dibersihkan setelah penggunaan. Salah satunya adalah alat analytical balance. Setelah selesai menggunakan, timbangan harus dibersihkan. Apakah bagian yang paling penting dari timbangan yang harus segera dibersihkan setelah digunakan?",
+    options: ["A. Kaca penutup", "B. Anak timbangan", "C. Pan (piringan) tempat sampel", "D. Kabel power", "E. Tombol pada timbangan"],
+    answer: "C. Pan (piringan) tempat sampel"
+},
+{
+    question: "Seorang bidan menelpon ke IPS bahwa doppler yang sedang digunakan pada pasien tiba-tiba rusak. Untuk menyikapi laporan bidan tersebut, apa yang dilakukan oleh petugas elektromedis?",
+    options: ["A. Mengganti sparepart", "B. Membuat laporan kerusakan", "C. Menghubungi agen alat tersebut", "D. Melakukan pemeriksaan awal", "E. Mengkalibrasi alat"],
+    answer: "D. Melakukan pemeriksaan awal"
+},
+{
+    question: "Di rumah sakit terdapat berbagai macam alat-alat medis sesuai dengan tipenya. Salah satu alat yang dimaksud adalah alat short wave diathermy (SWD). Pada saat alat digunakan untuk terapi pasien, pemberian waktunya tidak sesuai dengan yang diatur. Kerusakan apa yang dialami oleh alat tersebut?",
+    options: ["A. Aplikator", "B. Kabel power", "C. Selector", "D. Timer", "E. Rangkaian penguat"],
+    answer: "D. Timer"
+},
+{
+    question: "Setiap pengadaan alat elektromedik, maka wajib adanya dilakukan pelatihan alat terhadap pengguna. Materi pelatihan berupa cara penggunaan, pemeliharaan rutin harian, prinsip keselamatan kerja bagi alat dan juga pengguna. Dan harus menyerahkan dokumen alat kepada pengguna. Apa dokumen yang harus Anda cantumkan langsung pada alat?",
+    options: ["A. Standar operasional prosedur", "B. Petunjuk perbaikan", "C. Petunjuk pemeliharaan", "D. Tata cara membersihkan", "E. Buku petunjuk instalasi alat"],
+    answer: "A. Standar operasional prosedur"
+},
+{
+    question: "Rumah sakit baru saja mengadakan pembelian alat electro surgery unit (ESU) dan meminta kepada seorang teknisi elektromedis untuk mengajukan usulan dokumen teknik yang harus disertakan dalam pengadaan tersebut. Dokumen teknik apa saja yang dibutuhkan sebagai bahan referensi dalam melaksanakan kegiatan teknik?",
+    options: ["A. Service manual dan operating manual", "B. Elektroda tambahan", "C. Jaminan purna jual", "D. Operating manual", "E. Service manual"],
+    answer: "A. Service manual dan operating manual"
+},
+{
+    question: "Sebuah suction pump dilaporkan mengalami kerusakan, di mana daya hisapnya sangat lemah. Ketika dilakukan pengujian pada selang tidak ditemukan kebocoran. Apakah kerusakan alat tersebut?",
+    options: ["A. Regulator", "B. Filter", "C. Vacuum manometer", "D. Vacuum klep", "E. Vacuum house"],
+    answer: "D. Vacuum klep"
 }
-// {
-//     question: "Seorang perawat gigi melaporkan bahwa Dental Unit di Poliklinik Gigi sering dilaporkan kerusakan di bagian kursi pasien, sehingga user kesulitan dalam melakukan pemeriksaan. Pemeriksaan apakah yang dilakukan elektromedis untuk kondisi tersebut?",
-//     options: ["A. Supply listrik di Poli Gigi", "B. Berat badan pasien", "C. Sistem hidrolik", "D. Foot switch", "E. Supply air di Poli Gigi"],
-//     answer: "C. Sistem hidrolik"
-// },
-// {
-//     question: "Sebuah Rumah Sakit baru membeli sebuah alat Baby Incubator melalui proses sesuai prosedur yang berlaku dengan masa garansi 1 tahun. Pada saat usia alat 3 bulan, alat tersebut mengalami error pada pembacaan suhunya. Apakah langkah yang diambil oleh elektromedis untuk menangani alat tersebut?",
-//     options: ["A. Menelepon perusahaan rekanan lain", "B. Menyalahkan user karena terjadi error", "C. Mengembalikan alat ke perusahaan", "D. Melakukan perbaikan semampunya", "E. Melaporkan keagenan karena masih garansi"],
-//     answer: "E. Melaporkan keagenan karena masih garansi"
-// },
-// {
-//     question: "Sebagai seorang elektromedis, Anda harus menyampaikan kepada user bahwa peralatan elektromedis harus dibersihkan setelah penggunaan. Salah satunya adalah alat analytical balance. Setelah selesai menggunakan, timbangan harus dibersihkan. Apakah bagian yang paling penting dari timbangan yang harus segera dibersihkan setelah digunakan?",
-//     options: ["A. Kaca penutup", "B. Anak timbangan", "C. Pan (piringan) tempat sampel", "D. Kabel power", "E. Tombol pada timbangan"],
-//     answer: "C. Pan (piringan) tempat sampel"
-// },
-// {
-//     question: "Seorang bidan menelpon ke IPS bahwa doppler yang sedang digunakan pada pasien tiba-tiba rusak. Untuk menyikapi laporan bidan tersebut, apa yang dilakukan oleh petugas elektromedis?",
-//     options: ["A. Mengganti sparepart", "B. Membuat laporan kerusakan", "C. Menghubungi agen alat tersebut", "D. Melakukan pemeriksaan awal", "E. Mengkalibrasi alat"],
-//     answer: "D. Melakukan pemeriksaan awal"
-// },
-// {
-//     question: "Di rumah sakit terdapat berbagai macam alat-alat medis sesuai dengan tipenya. Salah satu alat yang dimaksud adalah alat short wave diathermy (SWD). Pada saat alat digunakan untuk terapi pasien, pemberian waktunya tidak sesuai dengan yang diatur. Kerusakan apa yang dialami oleh alat tersebut?",
-//     options: ["A. Aplikator", "B. Kabel power", "C. Selector", "D. Timer", "E. Rangkaian penguat"],
-//     answer: "D. Timer"
-// },
-// {
-//     question: "Setiap pengadaan alat elektromedik, maka wajib adanya dilakukan pelatihan alat terhadap pengguna. Materi pelatihan berupa cara penggunaan, pemeliharaan rutin harian, prinsip keselamatan kerja bagi alat dan juga pengguna. Dan harus menyerahkan dokumen alat kepada pengguna. Apa dokumen yang harus Anda cantumkan langsung pada alat?",
-//     options: ["A. Standar operasional prosedur", "B. Petunjuk perbaikan", "C. Petunjuk pemeliharaan", "D. Tata cara membersihkan", "E. Buku petunjuk instalasi alat"],
-//     answer: "A. Standar operasional prosedur"
-// },
-// {
-//     question: "Rumah sakit baru saja mengadakan pembelian alat electro surgery unit (ESU) dan meminta kepada seorang teknisi elektromedis untuk mengajukan usulan dokumen teknik yang harus disertakan dalam pengadaan tersebut. Dokumen teknik apa saja yang dibutuhkan sebagai bahan referensi dalam melaksanakan kegiatan teknik?",
-//     options: ["A. Service manual dan operating manual", "B. Elektroda tambahan", "C. Jaminan purna jual", "D. Operating manual", "E. Service manual"],
-//     answer: "A. Service manual dan operating manual"
-// },
-// {
-//     question: "Sebuah suction pump dilaporkan mengalami kerusakan, di mana daya hisapnya sangat lemah. Ketika dilakukan pengujian pada selang tidak ditemukan kebocoran. Apakah kerusakan alat tersebut?",
-//     options: ["A. Regulator", "B. Filter", "C. Vacuum manometer", "D. Vacuum klep", "E. Vacuum house"],
-//     answer: "D. Vacuum klep"
-// },
 // {
 //     question: "Suatu alat laboratorium berupa blood glucose tester sesaat yang dapat memeriksa kandungan gula darah, kolesterol, dan asam urat dalam darah. Alat tersebut dapat mendeteksi tiga jenis inputan yang berbeda dari testrip tersebut. Agar inputan yang akan dikeluarkan menjadi satu keluaran maka dibutuhkan:",
 //     options: ["A. Decoder", "B. Op Amp", "C. ADC", "D. DCA", "E. MUX"],
