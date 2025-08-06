@@ -285,19 +285,9 @@ const allQuestions = [
     answer: "B. Relative Centrifugal Force"
 },
 {
-    question: "Pelayanan kesehatan memerlukan EKG untuk mendiagnosa keadaan jantung pasien. EKG sering ditempatkan di IGD, Bangsal, ICU maupun IBS. Bagian dari peralatan apakah EKG?",
-    options: ["A. Peralatan hematologi", "B. Peralatan neurologi", "C. Peralatan kardiologi", "D. Peralatan radiologi", "E. Peralatan obstetri"],
-    answer: "C. Peralatan Kardiologi"
-},
-{
     question: "Ketika menguji keluaran defibrillator, teknisi elektromedis harus berhati-hati karena besar tegangan yang ada pada kedua pedal dapat mencapai ribuan volt. Sebuah defibrillator memiliki kapasitor dengan spesifikasi 10uF dan disetting pada 125 Joule. Energi tersebut dapat disimpan pada sebuah kapasitor yang tertanam pada unit. Berapa tegangan yang akan timbul pada kedua ujung pedal tersebut jika unit defibrillator digunakan ke pasien?",
     options: ["A. 4000 V", "B. 4500 V", "C. 5000 V", "D. 5500 V", "E. 6000 V"],
     answer: "C. 5000 V"
-},
-{
-    question: "Sebuah waterbath digunakan untuk menjaga sampel darah pasien dengan menempatkan sampel darah tersebut pada lingkungan yang suhunya terjaga pada titik suhu tertentu dan dengan penyimpanan selama selang waktu tertentu. Kapan kontrol timer pada waterbath tersebut akan aktif?",
-    options: ["A. Pada saat pertama kali alat dihidupkan", "B. Pada saat suhu setting pada waterbath sudah tercapai", "C. Pada saat detector level air berada pada level yang sesuai", "D. Pada saat suhu ukur pada waterbath berada di atas suhu setting", "E. Pada saat suhu ukur pada waterbath berada di bawah suhu setting"],
-    answer: "B. Pada saat suhu setting waterbath sudah tercapai"
 },
 {
     question: "Dengan menggunakan alat EKG, kegiatan listrik jantung dalam tubuh dapat direkam melalui elektroda-elektroda yang dipasang pada permukaan tubuh pasien. Elektrode apakah yang dipasang pada dada pasien pada alat tersebut?",
@@ -2498,17 +2488,17 @@ const allQuestions = [
     question: "Sebuah suction pump dilaporkan mengalami kerusakan, di mana daya hisapnya sangat lemah. Ketika dilakukan pengujian pada selang tidak ditemukan kebocoran. Apakah kerusakan alat tersebut?",
     options: ["A. Regulator", "B. Filter", "C. Vacuum manometer", "D. Vacuum klep", "E. Vacuum house"],
     answer: "D. Vacuum klep"
+},
+{
+    question: "Suatu alat laboratorium berupa blood glucose tester sesaat yang dapat memeriksa kandungan gula darah, kolesterol, dan asam urat dalam darah. Alat tersebut dapat mendeteksi tiga jenis inputan yang berbeda dari testrip tersebut. Agar inputan yang akan dikeluarkan menjadi satu keluaran maka dibutuhkan:",
+    options: ["A. Decoder", "B. Op Amp", "C. ADC", "D. DCA", "E. MUX"],
+    answer: "E. MUX"
+},
+{
+    question: "Pada pesawat Ultrasonograph, pada buku manualnya dituliskan spesifikasi kelistrikannya sebagai berikut: tegangan AC input 90 to 240 Vac, Frekwensi: 47 to 63 Hz, ground impedance: 100 mΩ; load: I, 150 VA; AC output (including PC): non sinusoidal 120 Vrms, daya: 350 VA. Berapakah daya UPS yang diperlukan?",
+    options: ["A. 250 VA", "B. 1000 VA", "C. 2500 VA", "D. 5000 VA", "E. 100 VA"],
+    answer: "B. 1000 VA"
 }
-// {
-//     question: "Suatu alat laboratorium berupa blood glucose tester sesaat yang dapat memeriksa kandungan gula darah, kolesterol, dan asam urat dalam darah. Alat tersebut dapat mendeteksi tiga jenis inputan yang berbeda dari testrip tersebut. Agar inputan yang akan dikeluarkan menjadi satu keluaran maka dibutuhkan:",
-//     options: ["A. Decoder", "B. Op Amp", "C. ADC", "D. DCA", "E. MUX"],
-//     answer: "E. MUX"
-// },
-// {
-//     question: "Pada pesawat Ultrasonograph, pada buku manualnya dituliskan spesifikasi kelistrikannya sebagai berikut: tegangan AC input 90 to 240 Vac, Frekwensi: 47 to 63 Hz, ground impedance: 100 mΩ; load: I, 150 VA; AC output (including PC): non sinusoidal 120 Vrms, daya: 350 VA. Berapakah daya UPS yang diperlukan?",
-//     options: ["A. 250 VA", "B. 1000 VA", "C. 2500 VA", "D. 5000 VA", "E. 100 VA"],
-//     answer: "B. 1000 VA"
-// },
 // {
 //     question: "Seorang elektromedis yang sedang melakukan pemeliharaan pada pesawat rontgen. Dalam pemeriksaan tersebut dijumpai bahwa arus tabung yang ditunjukkan pada semua pemilihan arus tabung selalu lebih rendah dari nilai yang dipilih. Bagian manakah dari pesawat rontgen tersebut yang mengalami masalah?",
 //     options: ["A. Standby resistor", "B. High Tension Transformer", "C. KV selector", "D. Line voltage compensator", "E. Rectifier"],
